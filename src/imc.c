@@ -325,12 +325,13 @@ static void do_read(imc_connect *c) {
     char temp[IMC_MAXBUF];
     r = read(c->desc, temp, IMC_MAXBUF - 1);
     if(!r || (r < 0 && errno != EAGAIN && errno != EWOULDBLOCK)) {
-        if(!c->info || !(c->info->flags & IMC_QUIET))
+        if(!c->info || !(c->info->flags & IMC_QUIET)) {
             if(r < 0) {                 /* read error */
                 imc_lerror("%s: read", imc_getconnectname(c));
             } else {                    /* socket was closed */
                 imc_logerror("%s: read: EOF", imc_getconnectname(c));
             }
+		}
         do_close(c);
         return;
     }
@@ -381,12 +382,13 @@ static void do_write(imc_connect *c) {
     }
     w = write(c->desc, c->outbuf, size);
     if(!w || (w < 0 && errno != EAGAIN && errno != EWOULDBLOCK)) {
-        if(!c->info || !(c->info->flags & IMC_QUIET))
+        if(!c->info || !(c->info->flags & IMC_QUIET)) {
             if(w < 0) {		/* write error */
                 imc_lerror("%s: write", imc_getconnectname(c));
             } else {		/* socket was closed */
                 imc_logerror("%s: write: EOF", imc_getconnectname(c));
             }
+		}
         do_close(c);
         return;
     }
@@ -1077,12 +1079,13 @@ static imc_packet *do_interpret_packet(imc_connect *c, const char *line) {
         v = IMC_VERSION;
     }
     p = (*imc_vinfo[v].interpret)(line);
-    if(p)
+    if(p) {
         if(c->info) {
             p->i.stamp = c->info->rcvstamp;
         } else {
             p->i.stamp = 0;
         }
+	}
     return p;
 }
 
