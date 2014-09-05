@@ -1,0 +1,444 @@
+#HELPS
+
+7 IMMREF~
+The Immortal Reference -        Table of Contents
+
+EXTRA-FLAGS               Each section has information on the bit/type/num
+ACT-BITS                  keywords (the words used with the editor commands)
+AFFECT-BITS               and also the numeric values and a short phrase
+WEAR-BITS                 description of the bit's meaning.  If your unsure,
+OBJ-TYPES                 please don't hesitate to ask one of the other
+OBJ-VALUES                builders for help!  Make sure to read CREATION-RULES!
+PET-SHOPS
+ROOM-FLAGS           AEDIT
+LIQUIDS              OEDIT
+APPLY-TYPES          REDIT
+PEC-PROCS            MEDIT
+EXIT-FLAGS           ALIST
+SPELLS               SECTORS
+
+These topics can be viewed using 'HELP <topic>'.
+~
+
+
+7 ALIST~
+Syntax: alist
+
+This command gives you a listing of all the areas along with their
+vnum assignments and the builder(s) assigned to editing them.
+~
+
+51 AEDIT~
+Syntax: aedit		-Enters the editor for the current area.
+Syntax: aedit <vnum>	-Enters the editor for the selected area.
+
+The follow commands are available from within the AEDITOR:
+
+show                - hitting return, or 'show' shows the area stats
+done                - exits the area editor and returns to normal play
+create              - create a brand new area and switch to it
+reset               - resets the current area
+name <name>         - change the 'AREAS' name of this area
+filename <filename> - change the file name for the area (be careful)
+age <number>        - set the age of the area
+recall <room vnum>  - set the room to recall to
+security <rating>   - set the security rating for this area
+builder <player>    - toggle that builder's access
+lvnum <number>      - set the lower vnum of the area
+uvnum <number>      - set the upper vnum of the area
+vnum <lower> <upper>- set both lower and upper vnum's
+~
+
+
+
+7 REDIT~
+Syntax: redit			-Enters the editor for the current room.
+Syntax: redit <vnum>		-Enters the editor for the selected room.
+
+The following commands are available from within the REDITOR:
+
+show                - hitting return, or 'show' shows the room stats
+done                - exists the room editor and returns to normal play
+create <vnum>       - creates a room with a certain vnum
+name <room title>   - changes the room title
+ed                  - type this command for additonal extra-description help
+desc                - edit description of room
+
+You may also type the room flags found in ROOM-FLAGS, or the sector names
+found in SECTORS.
+
+For exits, type the direction (north/s/e/w) followed by:
+delete             - delete this exit
+dig <vnum>         - creates the room and makes a two way link
+link <room vnum>   - make a two way link
+room <room vnum>   - make a one way link (use with caution)
+key <object vnum>  - makes specified object the vnum of the key required
+name <door name>   - makes the door's name/keywords = to the given name
+desc               - edit the description of the exit
+door               - makes exit a door
+
+You may also set the exit as a particular type found in EXIT-FLAGS.
+~
+
+
+
+7 OEDIT~
+Syntax: oedit			-Enters the editor for the default object.
+Syntax: oedit <vnum>		-Enters the editor for the selected object.
+
+The following commands are available from within the OEDITOR:
+
+show                - hitting return, or 'show' shows the object stats
+done                - exits the object editor and returns to normal play
+name <keywords>     - sets the keywords on an object
+short <desc>        - sets the 'name' of an object (a sword, a fish etc)
+long                - edit long description (the one in the room)
+value0 <num>        - sets the value '0' on the object (also abbrev.d to 'v0')
+value1 <num>        - sets the value '1' on the object (also abbrev.d to 'v1')
+value2 <num>        - sets the value '2' on the object (also abbrev.d to 'v2')
+value3 <num>        - sets the value '3' on the object (also abbrev.d to 'v3')
+weight <stones>     - sets the weight of the object
+cost <gold>         - sets the gold value of the object
+create <vnum>       - creates object with specified vnum
+ed                  - type this for info on adding/editing extended descripts
+
+You may also type the name of the object type (see OBJ-TYPES) or
+you can type the name of the extra bit you want to toggle (EXTRA-FLAGS).
+~
+
+
+
+7 MEDIT~
+Syntax: medit			-Enters the editor for the default mobile.
+Syntax: medit <vnum>		-Enters the editor for the selected mobile.
+
+The following commands are available from within the OEDITOR:
+
+show                - hitting return, or 'show' shows the mobile stats
+done                - exits the mobile editor and returns to normal play
+name <keywords>     - sets the keywords on an mobile
+short <desc>        - sets the 'name' of an mobile (a sword, a fish etc)
+long                - edit long description (the one in the room)
+descr               - edit the mobile's description (when looked at)
+shop                - type this command for further information
+create <vnum>       - creates mobile with specified vnum
+male/female/neuter  - set the mobile's sex
+level <level>       - set the mobile's level
+alignment <value>   - set the mobile's alignment
+
+You may also type the name of the act bits to toggle (see ACT-BITS), or
+you can type the name of the affect you want the mob to have (see the help on
+AFFECT-BITS) AND you can also type the name of the spec function you
+want (see SPEC-PROCS).
+~
+
+
+
+7 SPEC-PROCS~
+Special procedures are hard-coded  'script' that allow mobs to attain certain
+properties/intelligence et cetera.
+
+  Spec name          Description
+breath_any            can use any breath on players
+breath_acid           breaths acid on players - dissolving items sometimes
+breath_fire           breaths fire on players - melting some items sometimes
+breath_frost          breaths frost on players - cracking some items sometimes
+breath_gas            breaths gas on players
+breath_lightning      breaths lightning on players (strange concept..)
+cast_adept            casts 'helpful healing' spells
+cast_cleric           casts damaging spells during combat
+cast_judge            strange combat magic here
+cast_mage             casts fireball and other mage spells
+cast_undead           gates things in
+executioner           creates guards during combat, attacks thieves/killers
+fido                  eats corpses
+guard                 attacks thieves/killers
+janitor               picks up trash, sometimes eats it / drinks it etc.
+mayor                 no longer needed - will produce strange effects, DONT USE
+poison                bites players in combat, causing poison
+thief                 steals money from players
+eater                 eats its opponent - need a 'stomach' room of same vnum
+rogue                 picks up equipment and uses it
+zombie_lord           you know what this is :)
+~
+
+
+
+7 EXIT-FLAGS~
+Current exit flags are:
+
+door           - exit is a door
+closed         - exit is closed
+locked         - exit is locked (don't forget the key)
+bashed         - exit is bashed
+bashproof      - exit cannot be bashed
+pickproof      - exit cannot be picked (definitely a key)
+passproof      - exit cannot be walked through
+~
+
+
+
+7 ROOM-FLAGS~
+Currently room flags are:
+
+dark           - room is always dark
+no_mob         - room won't allow mobiles to enter
+indoors        - room is indoors
+private        - room allows only 2 people
+safe           - room won't allow fighting
+solitary       - room allows only 1 person
+pet_shop       - room is a pet shop
+no_recall      - room won't allow recalling
+no_teleport    - room cannot be teleported to/from
+~
+
+
+
+7 SECTORS~
+Currently sectors are:
+
+inside
+city
+field
+forest
+hills
+mountain
+water_swim
+water_noswim
+underwater
+air
+desert
+~
+
+
+7 AFFECT-BITS~
+Currently affects are:
+
+  blind            invisible 
+  detect_evil      detect_invis
+  detect_magic     detect_hidden
+  shadowplane      sanctuary
+  faerie_fire      infrared
+  curse            flaming
+  poison           protect
+  ethereal         sneak
+  hide             sleep
+  charm            flying
+  pass_door        shadowsight
+  rotting          coward
+~
+
+
+7 ACT-FLAGS~
+Currently act flags are:
+
+  is_npc	auto set for mobs
+  sentinel	stays in one room
+  scavenger	picks up objects 
+  aggressive	attacks pc's     
+  stay_area	won't leave area 
+  wimpy		flees when hurt  
+  pet		auto set for pets
+  train		can train pc's   
+  practice	can practice pc's
+  gamble	runs a gambling game
+~
+
+
+7 APPLY-TYPES~
+Currently apply types are:
+
+  none        str
+  dex         int
+  cha         sta
+  height      weight
+  mana        hit
+  move        ac
+  hit         dam
+  blood_pool  blood_potency
+~
+
+
+7 WEAR-BITS~
+Currently wear bits are:
+
+  take    finger
+  neck    body
+  head    legs
+  feet    hands
+  arms    about
+  waist   wrist
+  hold    face
+~
+
+
+7 EXTRA-FLAGS~
+Currently extra flags are:
+
+  glow          hum
+  invis         magic
+  nodrop        anti_good
+  anti_evil     anti_neutral
+  bless         noremove
+  inventory     loyal
+  shadowplane   thrown
+  keep          illusion
+~
+
+
+7 OBJ-TYPES~
+Keyword         Description
+=======         ===========
+ light		used as lightsource
+ scroll 	can be recited
+ wand		can be zapped
+ staff		can be brandished
+ weapon 	can be use in combat (must be wielded)
+ treasure	Can be sold as a worthless item and is not trash
+ armor		Protection (must be worn somewhere)
+ potion 	can be quaffed
+ furniture	Currently unused
+ trash		Default item type if given bad keyword (mvnum)
+ container	Can hold items
+ drink		Can hold liquid
+ key		No special qualities
+ food		Can be eaten
+ money		When taken adds to ch->gold
+ corpse		npc corpse
+ fountain	can be drunk from
+ pill		can be eaten but is magical
+ portal         can be used to travel to other rooms
+ egg            hatches into a mob when its timer runs out
+ stake          used for staking vampires
+ missile/ammo   missile weapon/ammo for the missile weapon
+~
+
+
+
+7 LIQUIDS~
+   liquid name	     color	 alcohol food drink (values)
+   ===========       =====       ======= ==== =====
+    water            "clear"         0    0    10
+    beer             "amber"         3    2     5
+    wine             "rose"          5    2     5
+    ale              "brown"         2    2     5
+    dark_ale         "dark"          1    2     5
+    whisky           "golden"        6    1     4
+    lemonade         "pink"          0    1     8
+    firebreather     "boiling"       10   0     0
+    local_specialty  "everclear"     3    3     3
+    slime_mold_juice "green"         0    4    -8
+    milk             "white"         0    3     6
+    tea              "tan"           0    1     6
+    coffee           "black"         0    1     6
+    blood            "red"           0    2    -1
+    salt_water       "clear"         0    1    -2
+    cola             "cherry"        0    1     5
+~
+
+
+
+7 "b_ref item_light"~
+01 ITEM_LIGHT
+   value 1    unused
+   value 2    unused
+   value 3    hours of light available, 0 is dead, -1 is infinite            
+   value 4    unused
+~
+
+
+
+7 "b_ref item_staff_wand"~
+03 ITEM_WAND
+   value 1    level
+   value 2    max charges
+   value 3    current charges
+   value 4    spell name
+
+04 ITEM_STAFF
+   value 1    level
+   value 2    max charges
+   value 3    current charges
+   value 4    spell name
+~
+
+
+7 "b_ref item_scroll_potion_pill"~
+02 ITEM_SCROLL
+   value 1    level
+   value 2    spell name 1
+   value 3    spell name 2
+   value 4    spell name 3
+
+10 ITEM_POTION
+   value 1    level
+   value 2    spell name 1
+   value 3    spell name 2
+   value 4    spell name 3
+
+26 ITEM_PILL
+   value 1    level
+   value 2    spell name 1
+   value 3    spell name 2
+   value 4    spell name 3
+~
+
+
+
+7 "b_ref item_weapon"~
+05 ITEM_WEAPON
+   value 1    unused
+   value 2    unused (formerly min damage)
+   value 3    unused (formerly max damage)
+   value 4    weapon type:
+      00     hit
+      01     slice
+      02     stab
+      03     slash
+      04     whip
+      05     claw
+      06     blast
+      07     pound
+      08     crush
+      09     grep
+      10     bite
+      11     pierce
+      12     suction
+      13     chop
+~
+
+
+
+7 "b_ref item_drink_con"~
+15 ITEM_CONTAINER
+   value 1    weight capacity
+   value 2    flags: 1 closeable, 2 pickproof, 4 closed, 8 locked            
+   value 3    key vnum
+   value 4    unused
+~
+
+
+
+7 "b_ref item_food"~
+19 ITEM_FOOD
+   value 1    hours of food value
+   value 2    unused
+   value 3    unused
+   value 4    if non-zero, food is poisoned
+~
+
+
+
+7 "b_ref item_money"~
+20 ITEM_MONEY
+   value 1    value in gold pieces
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+
+0 $~
+
+
+#$

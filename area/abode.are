@@ -1,0 +1,476 @@
+#AREADATA
+Name        KaVir   Khang and Reina's abode~
+Builders    None~
+VNUMs       29100 29119
+Security    1
+End
+
+
+
+#MOBILES
+#29100
+dog~
+a small hairy dog~
+~
+He's very small, and very cute.
+~
+16387 552 1000 S
+1 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#29100
+desk draw drawers~
+the desk draw~
+A carved wooden desk is sitting here.~
+~
+15 0 0
+1000 5 0 0
+500 0 0
+#29101
+letter~
+a letter~
+A letter is lying here.~
+~
+38 0 1
+0 0 0 0
+1 0 0
+#29102
+cupboard~
+the cupboard~
+A long cupboard sits on the wall overhead.~
+~
+15 0 0
+10000 5 0 0
+500 0 0
+#29103
+taco~
+a taco~
+A tasty looking taco lies here.~
+~
+19 0 1
+30 0 0 0
+1 5 0
+#29104
+apple~
+an apple~
+A juicy green apple lies here.~
+~
+19 0 1
+10 0 0 0
+1 1 0
+#29105
+pecan pie~
+a pecan pie~
+A tasty looking pecan pie is lying here.~
+~
+19 0 1
+50 0 0 0
+2 25 0
+#29106
+bread~
+a loaf of bread~
+A loaf of crusty white bread lies here.~
+~
+19 0 1
+40 0 0 0
+2 0 0
+#29107
+bottle blood~
+a bottle of blood~
+A bottle of blood is lying here.~
+~
+17 0 1
+10 10 13 0
+1 0 0
+#29108
+bottle water~
+a bottle of water~
+A bottle of water lies here.~
+~
+17 0 1
+10 10 0 0
+1 0 0
+#29109
+bottle beer~
+a bottle of beer~
+A bottle of beer lies here.~
+~
+17 0 1
+10 10 1 0
+0 0 0
+#29110
+bed~
+a bed~
+A comfortable looking bed lies here.~
+~
+12 0 0
+0 0 0 0
+500 0 0
+#29111
+bath tub bathtub~
+the bathtub~
+A small bathtub filled with steamy water rests on the floor.~
+~
+12 0 0
+0 0 0 0
+500 0 0
+#29112
+bed~
+the large double bed~
+A large double bed lies against the far wall.~
+~
+12 0 0
+0 0 0 0
+500 0 0
+Q
+(null)~
+$n pulls the covers back over $s head.~
+You pull the covers back over your head.~
+(null)~
+You pull back the covers of the bed and climb in.~
+$n pulls back the covers of the bed and climbs in.~
+136 29118
+#0
+
+
+
+#ROOMS
+#29100
+The garden~
+You are standing in a small, well kept garden.  To the north you see a
+beautiful ancient stone house.
+~
+0 16388 3
+D0
+~
+~
+0 0 29101
+S
+#29101
+In front of the house~
+You are standing in front of a beautiful house crafted from ancient
+stone.  Lush green ivy reaches long tendrils up the sides of the building,
+covering much of the stonework.  
+~
+0 16384 3
+D0
+~
+doorway door~
+0 0 29102
+D2
+~
+~
+0 0 29100
+S
+#29102
+The southern end of the hallway~
+You are standing at the southern end of the great hallway.  Doors lead
+off to your left and right, while the hallway continues straight ahead of
+you.  
+~
+0 17416 0
+D0
+~
+~
+0 0 29106
+D1
+~
+doorway door~
+0 0 29103
+D2
+~
+doorway door~
+0 0 29101
+D3
+~
+doorway door~
+0 0 29104
+S
+#29103
+The study~
+You are standing within a small, well furnished study.  A selection of
+books line the shelves, while a desk sits against the far wall.  
+~
+0 17416 0
+D3
+~
+doorway door~
+0 0 29102
+S
+#29104
+The living room~
+You are standing within a large comfortable living room.  A pair of large
+leather-bound armchairs rest against opposite corners of the room, while a
+long sofa lies between them.  A warm heat radiates from the fireplace, which
+fills the room with a gentle flickering light source.  
+~
+0 17416 0
+D0
+~
+~
+0 0 29105
+D1
+~
+doorway door~
+0 0 29102
+S
+#29105
+The dining room~
+You find yourself standing within a long dining room.  A great wooden
+dining table is located directly in the centre of the room, and looks large
+enough to feed a small army.  
+~
+0 17416 0
+D1
+~
+doorway door~
+0 0 29107
+D2
+~
+~
+0 0 29104
+S
+#29106
+The northern end of the hallway~
+You are standing at the northern end of the great hallway.  Directly
+ahead of you a door leads into the kitchen, while to your east lies a
+staircase.  
+~
+0 17416 0
+D0
+~
+doorway door~
+0 0 29107
+D1
+~
+~
+0 0 29108
+D2
+~
+~
+0 0 29102
+S
+#29107
+The kitchen~
+You are standing within a small clean kitchen.  Several cupboards line
+the walls, and a small oven stands in one corner.  
+~
+0 17416 0
+D0
+~
+doorway door~
+0 0 29117
+D2
+~
+doorway door~
+0 0 29106
+D3
+~
+doorway door~
+0 0 29105
+S
+#29108
+The foot of the staircase~
+You are standing at the foot of the staircase, which leads up to the next
+floor.  
+~
+0 17416 0
+D3
+~
+~
+0 0 29106
+D4
+~
+~
+0 0 29109
+S
+#29109
+The top of the staircase~
+You are standing at the top of the staircase.  To your north lies a small
+bedroom, while to your west leads onto the landing.  
+~
+0 17416 0
+D0
+~
+~
+0 0 29110
+D3
+~
+~
+0 0 29111
+D5
+~
+~
+0 0 29108
+S
+#29110
+A spare bedroom~
+You are standing within a spare bedroom.  This is where guests can stay
+if they wish to rest and recover.  
+~
+0 17416 0
+D2
+~
+~
+0 0 29109
+S
+#29111
+The landing~
+You are standing on the landing.  To your west lies the top of the
+stairs, while to your north a small door leads into the bathroom.  To your
+west lies the doorway to a bedroom, while the landing continues to the
+south.  
+~
+0 17416 0
+D0
+~
+doorway door~
+0 0 29113
+D1
+~
+~
+0 0 29109
+D2
+~
+~
+0 0 29112
+D3
+~
+doorway door~
+0 0 29114
+S
+#29112
+The landing~
+You are standing at the end of the landing.  To your west and south lie
+doorways to bedrooms.  The landing continues to the north.  
+~
+0 17416 0
+D0
+~
+~
+0 0 29111
+D2
+~
+doorway door~
+0 0 29116
+D3
+~
+doorway door~
+0 0 29115
+S
+#29113
+The bathroom~
+You are standing within a small bathroom.  A bathtub lies against the
+west wall, with a small washing basin beside it.  
+~
+0 17416 0
+D2
+~
+doorway door~
+0 0 29111
+S
+#29114
+Khang and Reina's bedroom~
+You are standing within Khang and Reina's bedroom.  A large bed lies
+against the south wall, while a small desk stands in the far corner.  
+~
+0 17416 0
+D1
+~
+doorway door~
+0 0 29111
+S
+#29115
+A spare bedroom~
+You are standing within a large spare bedroom.  This is where visiting
+guests are invited to stay if they are in need of rest.  
+~
+0 17416 0
+D1
+~
+doorway door~
+0 0 29112
+S
+#29116
+A spare bedroom~
+You are standing within a spare bedroom.  This is where visiting guests
+are invited to stay if they feel in need of rest.  
+~
+0 17416 0
+D0
+~
+doorway door~
+0 0 29112
+S
+#29117
+The back garden~
+You are standing in the back garden of the house.  The grass grows
+thickly on the ground and wild flowers are here in abundance.  Several large
+trees to your north prevent you from traveling any further.  
+~
+0 17408 3
+D2
+~
+doorway door~
+0 0 29107
+S
+#29118
+Inside the bed~
+You are lying within a huge comfortable bed!
+~
+0 17932 0
+T
+|love*~
+$n vanishes suddenly.~
+Your surroundings blur and change.~
+|khang*reina*~
+16384 29119 0
+S
+#29119
+The Secret Room~
+You are standing within Khang and Reina's secret room.  Now I wonder what
+they do in here...  *grin* :) 
+~
+0 17932 0
+S
+#0
+
+
+
+#SPECIALS
+M 29100 spec_dog Load to: a small hairy dog
+S
+
+
+
+#RESETS
+O 0 29100 0 29103
+P 0 29101 0 29100
+O 0 29102 0 29107
+P 0 29103 0 29102
+P 0 29104 0 29102
+P 0 29105 0 29102
+P 0 29106 0 29102
+P 0 29107 0 29102
+P 0 29108 0 29102
+P 0 29109 0 29102
+O 0 29110 0 29110
+O 0 29111 0 29113
+O 0 29112 0 29114
+O 0 29110 0 29115
+O 0 29110 0 29116
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

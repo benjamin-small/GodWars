@@ -1,0 +1,264 @@
+#AREADATA
+Name        KaVir   Relics~
+Builders    None~
+VNUMs       29600 29695
+Security    1
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#29600
+drow sword adamantite~
+a drow adamantite sword~
+A drow adamantite sword lies here.~
+~
+5 0 8193
+0 25 50 3
+1 1000000 0
+A
+19 10
+A
+18 10
+#29601
+drow piwafwi~
+a drow piwafi~
+A drow piwafi lies here.~
+~
+9 0 1025
+25 0 0 0
+1 1000000 0
+A
+19 5
+A
+18 5
+#29602
+drow adamantite armor~
+a drow adamantite armor~
+A drow adamantite armor lies here.~
+~
+9 0 9
+25 0 0 40
+1 1000000 0
+A
+19 5
+A
+18 5
+#29603
+drow boots~
+a pair of drow boots~
+A pair of drow boots lies here.~
+~
+9 0 65
+25 0 0 19
+1 1000000 0
+A
+19 5
+A
+18 5
+#29604
+drow mask~
+a drow face mask~
+A drow face mask lies here.~
+~
+9 0 -32767
+25 0 0 40
+1 1000000 0
+A
+19 5
+A
+18 5
+#29605
+bracers blinding strike~
+bracers of blinding strike~
+A pair of gleaming arm bracers lie here.~
+~
+9 0 257
+25 0 0 0
+1 1000000 0
+A
+19 5
+A
+18 5
+#29650
+%s %sic ring~
+a %s %sic ring~
+A ring crafted from %s %ssteel lies here.~
+~
+9 0 3
+25 0 0 0
+1 1000000 0
+#29651
+%s %sic collar~
+a %s %sic collar~
+A collar crafted from %s %ssteel lies here.~
+~
+9 0 5
+25 0 0 0
+1 1000000 0
+#29652
+%s %sic armor armour breastplate plate~
+a %s %sic breastplate~
+A collar crafted from %s %ssteel lies here.~
+~
+9 0 9
+25 0 0 0
+1 1000000 0
+#29653
+%s %sic helmet~
+a %s %sic helmet~
+A helmet crafted from %s %ssteel lies here.~
+~
+9 0 17
+25 0 0 0
+1 1000000 0
+#29654
+%s %sic leggings~
+a pair of %s %sic leggings~
+A pair of leggings crafted from %s %ssteel lies here.~
+~
+9 0 33
+25 0 0 0
+1 1000000 0
+#29655
+%s %sic boots~
+a pair of %s %sic boots~
+A pair of boots crafted from %s %ssteel lies here.~
+~
+9 0 65
+25 0 0 0
+1 1000000 0
+#29656
+%s %sic gauntlets gloves~
+a pair of %s %sic gauntlets~
+A pair of gauntlets crafted from %s %ssteel lies here.~
+~
+9 0 129
+25 0 0 0
+1 1000000 0
+#29657
+%s %sic sleeves~
+a pair of %s %sic sleeves~
+A pair of sleeves crafted from %s %ssteel lies here.~
+~
+9 0 257
+25 0 0 0
+1 1000000 0
+#29658
+%s %sic cape~
+a %s %sic cape~
+A cape crafted from %s %ssilk lies here.~
+~
+9 0 1025
+25 0 0 0
+1 1000000 0
+#29659
+%s %sic belt~
+a %s %sic belt~
+A belt crafted from %s %ssteel lies here.~
+~
+9 0 2049
+25 0 0 0
+1 1000000 0
+#29660
+%s %sic bracer~
+a %s %sic bracer~
+A bracer crafted from %s %ssteel lies here.~
+~
+9 0 4097
+25 0 0 0
+1 1000000 0
+#29661
+%s %sic visor~
+a %s %sic visor~
+A visor crafted from %s %ssteel lies here.~
+~
+9 0 -32767
+25 0 0 0
+1 1000000 0
+#29662
+black demonic longsword sword~
+a black demonic longsword~
+A longsword crafted from black demonsteel lies here.~
+~
+5 16896 8193
+18000 25 50 3
+1 1000000 0
+A
+19 50
+A
+18 50
+#29663
+black demonic shortsword sword~
+a black demonic shortsword~
+A shortsword crafted from black demonsteel lies here.~
+~
+5 16896 8193
+17000 25 50 11
+1 1000000 0
+A
+19 50
+A
+18 50
+#29664
+white angelic longsword sword~
+a white angelic longsword~
+A longsword crafted from white angelsteel lies here.~
+~
+5 17408 8193
+18000 25 50 3
+1 1000000 0
+A
+19 50
+A
+18 50
+#29665
+white angelic shortsword sword~
+a white angelic shortsword~
+A shortsword crafted from white angelsteel lies here.~
+~
+5 17408 8193
+17000 25 50 11
+1 1000000 0
+A
+19 50
+A
+18 50
+#29695
+highlander katana sword~
+a gleaming katana~
+A gleaming silver katana lies on the ground.~
+~
+5 16384 8193
+0 25 50 0
+1 1000000 0
+#0
+
+
+
+#ROOMS
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

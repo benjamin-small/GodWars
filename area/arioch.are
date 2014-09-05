@@ -1,0 +1,277 @@
+#AREA   Arioch   Bits area~
+
+
+
+#HELPS
+0 $~
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+
+#ROOMS
+#18000
+The Top Floor of a Sandstone Tower~
+You stand in a large room which completly fills the top floor of
+a tall circular sandstone tower.  Leading down to the next level
+is a black cast-iron spiral staircase.
+
+Through a small window in the south side the moonlight glitters
+across the surface of an inky black sea.  The warm sea air carries
+a faint smell of various spices from the market near bye.
+
+Dark wooden benches go around one half of the room on which are
+scattrered bright multi-coloured cushions.  A bookcases line
+a part of the wall full of leather bound novels and other
+books.  In the middle of the room is a simple crystal vase on
+a small table.  In the vase is a single perfect white rose.
+Next to it is a bowl containing perfect freshly picked peaches,
+kumquats and oranges.
+
+A full sized concert grand harp sits ready to be played but there
+is no music stand.  Mounted on the bare sandstone walls are
+originals of Edward Hoopers 'Nighthawks' and Rossetti's 'Prosperine' 
+and an large old silvered mirror.
+~
+0 8|16384 3
+D5
+~
+A black cast iron spiral staircase~
+0 0 18009
+T
+midgaard~
+$n vanishes suddenly~
+You feel yourself being torn apart~
+16384 3001 0
+S
+#18001
+A Large Circular Bedroom~
+A large four poster bed dominates this large bedroomon set on a wooden
+platform.  The bed is dressed with a dark green duvet with white roses
+along the bottom of it, dark green drapes and canopy.   At the foot
+of the bed is a large blanket box made from a dark wood similar to
+that which make up the floor.
+
+A small table sits next to the bed with a bowl full off rose petals
+which provides a delicate scent to the room.  While around the room is
+a large wardrobe filled with clothes, a tall free standing mirror
+and a large chest of drawers.  The chest of drawers has a small old
+photograph of a lady on it.  On the back of the door is a hook with
+two dressing gowns hanging on it.
+
+Facing you is doorway which opens out to a small balcony; the curtains
+tied back so as to sway less in the breeze.  On the lime washed walls 
+is a strange a painting of a japanese lady in formal dress.
+~
+0 8|1024|16382 3
+D0
+~
+A small step~
+0 0 18002
+D4
+~
+A black cast iron spiral staircase~
+0 0 18000
+D5
+~
+A black cast iron spiral staircase~
+0 0 18003
+S
+#18002
+A small balcony~
+A small balcony sticks out from the side of the bedroom.  At one side
+is a large pot filled with brightly coloured flowers while at the other
+a large green chair.  A green, red and gold canopy covers the balcony to 
+keep the sun and the rain off.  The reflections of the moon glisten
+across the sufrace of the inky black sea.
+~
+0 1|1024|2048|8192|16384 0
+D2
+~
+A small step~
+0 0 18001
+T
+midgaard~
+$n vanishes suddenly~
+You feel yourself being torn apart~
+16384 3001 0
+S
+#18003
+A hallway~
+The staircase leads into this small hallway.  A dark wooden door leads to the
+north while around the south side is a small bookcase containing books and
+magazines.
+~
+0 8|16384 0
+D0
+~
+A dark wooden door~
+2 0 18004
+D4
+~
+A black cast iron spiral staircase~
+0 0 18009
+D5
+~
+A black cast iron spiral staicase~
+0 0 18005
+S
+#18004
+The bathroom~
+You walk out into a large bathroom in this tower.  On the
+far side is a fresco which takes up the entire wall of a
+elegant japenese woman riding on the back of a large sea
+monster; the wind and the spray seem to leave her unaffected.
+
+In the centre, on a raised wooden platform, is a large white bath
+bath tub with white feet and large taps.  The dark wooden floor
+only has a single rug next to the bath where you get in and out
+to stop your feet getting cold.
+
+A large mirror hangs above a sink with a linen basket next to
+it.  A series of shelves in one corner has lots of large fluffy
+towels.  A small table is covered in various bath oils, soaps
+and a large jar of rose petals.
+
+Warm fresh sea air blows though a small discrete window on the
+left hand side.
+~
+0 8|16384 0
+D2
+~
+A dark wooden door~
+1 0 18003
+S
+#18005
+A hallway~
+The entance to the tower is a small hallway.  The flooring is made
+up of flag stones and a black cast iron spiral staircase leads upwards.
+On the wall is a picture of a fish and in a small alcove next to the 
+door is a small statue if a man and a woman embraced.  To the south
+is a dark green door which is the exit from the tower while to the 
+north is a dark wooden door
+~
+0 8|16384 0
+D0
+~
+A dark wooden door~
+1 0 18006
+D2
+~
+A dark green front door~
+1 0 18007
+D4
+~
+A black cast iron spiral staicase~
+0 0 18003
+S
+#18006
+The kitchen~
+The dark wooden beams across the ceiling are only a few feet above your
+head giving a sensation of warmth.  Hanging from the beams are strings
+of onions, garlic, various drying flowers as well as all the pots,
+pans, and other bits and pieces you would need to cook anything.
+Underfoot sandstone flag stone make for an attractive and very hard
+wearing floor.
+
+Facing you is a large deep green aga with something cooking gently away.
+A large brass light hangs down over a pine breakfast table.  Around
+the table rests six chairs while on top of the white linen cloth is a
+toaster, conduments and a coffee machine which is giving off the
+powerful aroma of freshly made coffee.  On tray next to the window is
+a tray containing various fresh herbs such as dill and parsley.
+
+The walls have a few pictures of farmyard scenes and a small clock
+keeps the time.  The various appliances have been cleverly hidden away so
+as to look to be a part of the units.
+~
+0 8|16384 0
+D2
+~
+A dark wooden door~
+2 0 18005
+S
+#18007
+Outside a circular sandstone tower~
+The view from here is fantastic.  The moon is just rising above the sea
+and there is a bench here to sit down and watch it.  The tower reaches
+up three floor above you and finishes with a bright copper coloured 
+pointed roof.  Down the cliffs you can see the sea.
+~
+0 1|16384 0
+D2
+~
+A dark green front door~
+40 0 18005
+D5
+~
+~
+0 0 18008
+S
+#18008
+On the sea~
+To the north you can see a river while to the distance in the south you
+see a tall sandstone tower on a cliff overlooking the sea.
+~
+0 1|16384 7
+D0
+~
+~
+0 0 3032
+D4
+~
+~
+0 0 18007
+S
+#18009
+A hallway~
+The staircase leads into this small hallway.  A dark wooden door leads to
+the north while the the south side of the wall is a small stained glass
+window with a strange tree on it; the right hand side is in leaf and
+the left hand side is in flames.
+~
+0 8|16384 0 
+D0
+~
+A dark wooden door~
+2 0 18001
+D4
+~
+A black cast iron spiral staircase~
+0 0 18000
+D5
+~
+A black cast iron spiral staircase~
+0 0 18003
+S
+#0
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#$
+
+

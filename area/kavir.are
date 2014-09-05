@@ -1,0 +1,783 @@
+#AREADATA
+Name        KaVir   Odds and ends~
+Builders    None~
+VNUMs       30000 30042
+Security    1
+End
+
+
+
+#MOBILES
+#30000
+hell hound~
+a hell hound~
+A hell hound stands here snarling at you.
+~
+He looks very hungry...
+~
+2051 0 -1000 S
+22 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30001
+guardian demon~
+a guardian demon~
+A huge guardian demon stands here, radiating evil.
+~
+He glares at your and flexes his huge clawed hands.
+~
+3 0 -1000 S
+9 2 2 1d1+300 1d8+32
+100000 0
+0 0 1
+#30002
+gremlin~
+a nasty little gremlin~
+A nasty little gremlin stands here, hopping from foot to foot.
+~
+He grins wickedly at you through pointed little teeth.
+~
+3 552 -1000 S
+52 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30003
+gremlin~
+a big ugly gremlin~
+A big ugly gremlin stands here, snarling angrilly.
+~
+He snarls angrilly at you through long pointed fangs.
+~
+3 552 -1000 S
+151 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30004
+gremlin~
+a huge vicious gremlin~
+A huge vicious gremlin stands here, growling with anger.
+~
+He growls viciously at you through huge curved tusks.
+~
+3 552 -1000 S
+299 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30005
+cute fluffy creature~
+a cute little fluffy creature~
+A cute little fluffy creature looks up at you, begging for food.
+~
+"Please, kind person, spare me some food?", he squeaks.  You consider 
+stamping on the wretched little creature, but then decide it's not worth 
+the mess it would make on your boots.
+~
+3 552 1000 S
+2 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30006
+mount~
+a generic mount~
+A generic mount stands here, waiting to be ridden.
+~
+It looks like it would make a good mount...
+~
+2051 0 -1000 S
+1 2 2 1d1+100 1d8+32
+100000 0
+0 0 1
+#30007
+frog~
+a small green frog~
+A small green frog sits here.
+~
+It's small, green, and intelligent-looking.
+~
+3 552 1000 S
+2 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30008
+raven~
+a raven~
+A raven is flapping around here.
+~
+You notice that it is very intelligent-looking.
+~
+3 524840 1000 S
+2 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30009
+cat~
+a small black cat~
+A small black cat is curled up here.
+~
+It is very cute, and very intelligent-looking.
+~
+3 552 1000 S
+4 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30010
+dog~
+a small brown dog~
+A small brown dog is sitting here.
+~
+It is very cute, and very intelligent-looking.
+~
+3 552 1000 S
+10 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30011
+zombie lord~
+the Zombie Lord~
+The Zombie Lord is here.
+~
+He looks very evil, very intelligent, and very rotten.
+~
+3 552 -1000 S
+1501 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30012
+eye eyeball~
+an eyeball~
+An eyeball is lying on the ground.
+~
+It stares right back at you!
+~
+3 552 1000 S
+2 2 2 1d1+30 1d8+32
+100000 0
+0 0 1
+#30013
+mole rat molerat~
+a naked mole rat~
+A naked mole rat scurries around on the floor.
+~
+It looks just like Furry.
+~
+3 552 1000 S
+3 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#30014
+yak~
+a great hairy yak~
+A huge, hairy, stinking yak stands here.
+~
+It looks rather fearsome, and smells even worse.
+~
+2051 0 -1000 S
+50 2 2 1d1+100 1d8+32
+100000 0
+0 0 1
+#30015
+astral projection~
+an astral projection~
+The astral projection of someone is standing here.
+~
+You see a pale, translucent figure.
+~
+3 573992 -1000 S
+52 2 2 1d1+100 1d8+32
+100000 0
+0 0 1
+#30016
+clone mirror image~
+a clone~
+The Mirror Image of someone is standing here.
+~
+You see nothing special.
+~
+3 552 -1000 S
+49 2 2 1d1+100 1d8+32
+100000 0
+0 0 1
+#30050
+unicorn~
+a beautiful white unicorn~
+A unicorn stands here gazing calmly at you.
+~
+He looks very hungry...
+~
+2051 0 -1000 S
+22 2 2 1d1+30000 1d8+32
+100000 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#30000
+soul blade~
+a soul blade~
+A soul blade lies here.~
+~
+5 16451 8193
+0 10 20 11
+3 60 0
+A
+19 5
+A
+18 5
+A
+17 -10
+A
+14 5
+A
+13 5
+A
+12 5
+Q
+$p starts pulsing with energy.~
+$p stops pulsing with energy.~
+You twist the pommel of your soul blade.~
+$p starts pulsing with energy.~
+$p stops pulsing with energy.~
+$n twists the pommel of $s soul blade.~
+50 86
+#30001
+shimmering portal~
+a shimmering portal~
+A shimmering portal floats in the air.~
+~
+27 0 0
+102 0 0 0
+1000 300 0
+#30002
+egg~
+a small egg~
+A small egg has been left here.~
+~
+28 0 1
+0 0 0 0
+5 10 0
+#30003
+egg shell~
+a broken egg shell~
+A broken egg shell is lying here.~
+~
+13 0 1
+0 0 0 0
+5 100 0
+#30004
+entrails %s~
+the spilled entrails of %s~
+The spilled entrails of %s lie in a pool here.~
+~
+19 0 16385
+30 0 30004 0
+2 0 0
+#30005
+brain %s~
+the quivering brain of %s~
+The quivering brain of %s wobbles on the floor.~
+~
+19 0 16385
+16 0 30005 0
+2 0 0
+#30006
+eye eyeball %s~
+the squidgy eyeball of %s~
+The squidgy eyeball of %s rolls around on the floor.~
+~
+19 0 16385
+1 0 30006 0
+2 0 0
+#30007
+pool blood %s~
+a pool of blood~
+A pool of spilt blood lies here.~
+~
+25 64 0
+10 10 13 0
+5000 10 0
+#30008
+egg~
+a large green egg~
+A large green egg lies here in a pool of goo.~
+~
+28 0 1
+0 0 0 0
+5 100 0
+#30009
+egg~
+a small green egg~
+A small green egg lies crystalized on the floor.~
+~
+26 1 1
+50 605 605 605
+2 10000 0
+#30010
+voodoo doll~
+a voodoo doll~
+A voodoo doll lies here.~
+~
+29 0 16385
+0 0 0 0
+5 100 0
+#30011
+wooden stake~
+a wooden stake~
+A wooden stake lies here.~
+~
+30 0 16385
+0 0 0 0
+5 10 0
+#30012
+face %s~
+the ripped off face of %s~
+The ripped off face of %s lies on the floor.~
+~
+19 0 16385
+10 0 30012 0
+2 0 0
+#30013
+windpipe %s~
+the torn-out windpipe of %s~
+The torn-out windpipe of %s lies broken on the floor.~
+~
+19 0 16385
+5 0 30013 0
+2 0 0
+#30014
+cracked head %s~
+the cracked-open head of %s~
+The cracked-open head of %s lies on the floor.~
+~
+13 0 16385
+1 0 30014 0
+2 0 0
+#30015
+elevator door~
+the elevator door~
+A small door stands against the wall.~
+~
+27 0 0
+30004 0 0 30003
+1000 300 0
+#30016
+elevator door~
+the elevator door~
+A small door stands against the wall.~
+~
+27 0 0
+30003 0 0 30004
+1000 300 0
+#30017
+elevator door~
+the elevator door~
+A small door stands against the wall.~
+~
+27 0 0
+30003 0 3 30005
+1000 300 0
+#30018
+elevator door~
+the elevator door~
+A small door stands against the wall.~
+~
+27 0 0
+30003 0 3 30006
+1000 300 0
+#30019
+elevator door~
+the elevator door~
+A small door stands against the wall.~
+~
+27 0 0
+30003 0 3 30007
+1000 300 0
+#30020
+blood fountain~
+a fountain of dark twisted metal~
+A fountain of dark twisted metal spews blood around the room.~
+~
+25 64 0
+100000 100000 13 0
+5000 10 0
+#30021
+crossbow~
+a heavy crossbow~
+A heavy crossbow lies here.~
+~
+31 0 16385
+30022 1 1 1
+5 10 0
+#30022
+crossbow bolt~
+a crossbow bolt~
+A crossbow bolt lies here.~
+~
+32 0 16385
+75 10 20 1
+1 10 0
+#30023
+revolver~
+a revolver~
+A revolver lies here in the dirt.~
+~
+31 0 16385
+0 0 6 2
+5 10 0
+#30024
+bullet~
+a bullet~
+A small bullet lies on the ground.~
+~
+32 0 16385
+100 100 100 2
+1 10 0
+#30025
+ear %s~
+the sliced off ear of %s~
+The sliced off ear of %s lies on the floor.~
+~
+19 0 16385
+1 0 30025 0
+2 0 0
+#30026
+nose %s~
+the sliced off nose of %s~
+The sliced off nose of %s lies on the floor.~
+~
+19 0 16385
+1 0 30026 0
+2 0 0
+#30027
+tooth %s~
+the knocked-out tooth of %s~
+The knocked-out tooth of %s lies on the floor.~
+~
+13 0 16385
+1 0 30027 0
+2 0 0
+#30028
+tongue %s~
+the torn-out tongue of %s~
+The torn-out tongue of %s lies on the floor.~
+~
+19 0 16385
+2 0 30028 0
+2 0 0
+#30029
+hand %s~
+the severed hand of %s~
+The severed hand of %s lies on the floor.~
+~
+19 0 16385
+10 0 30029 0
+2 0 0
+#30030
+foot %s~
+the severed foot of %s~
+The severed foot of %s lies on the floor.~
+~
+19 0 16385
+10 0 30030 0
+2 0 0
+#30031
+thumb %s~
+the severed thumb of %s~
+The severed thumb of %s lies on the floor.~
+~
+19 0 16385
+1 0 30031 0
+2 0 0
+#30032
+index finger %s~
+the severed index finger of %s~
+The severed index finger of %s lies on the floor.~
+~
+19 0 16385
+1 0 30032 0
+2 0 0
+#30033
+middle finger %s~
+the severed middle finger of %s~
+The severed middle finger of %s lies on the floor.~
+~
+19 0 16385
+1 0 30033 0
+2 0 0
+#30034
+ring finger %s~
+the severed ring finger of %s~
+The severed ring finger of %s lies on the floor.~
+~
+19 0 16385
+1 0 30034 0
+2 0 0
+#30035
+little finger %s~
+the severed little finger of %s~
+The severed little finger of %s lies on the floor.~
+~
+19 0 16385
+1 0 30035 0
+2 0 0
+#30036
+toe %s~
+the severed toe of %s~
+The severed toe of %s lies on the floor.~
+~
+19 0 16385
+1 0 30036 0
+2 0 0
+#30037
+protoplasm plasm ball~
+a ball of protoplasm~
+A ball of protoplasm floats in the air.~
+~
+13 0 1
+0 0 0 0
+0 0 0
+#30039
+quest card~
+a quest card~
+A small silvery card lies on the floor.~
+~
+34 0 1
+0 0 0 0
+5 5 0
+#30040
+quest machine~
+the quest-making machine~
+A small machine sits on the floor.~
+~
+35 0 0
+0 0 0 0
+5 5 0
+#30041
+protoplasm plasm ball~
+a ball of protoplasm~
+A ball of protoplasm floats in the air.~
+~
+13 0 1
+0 0 0 0
+0 0 0
+#30042
+ashes dust %s~
+a pile of ashes~
+A pile of ashes lie here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+#0
+
+
+
+#ROOMS
+#30000
+Hell~
+You are standing in hell.
+~
+0 12 1
+S
+#30001
+The Dark Crypt~
+You are standing within a small dark crypt.
+~
+0 1032 0
+D4
+Above you is the temple altar.
+~
+~
+0 -1 3054
+T
+|drink*water*~
+~
+~
+all~
+4096 17 0
+T
+&want*pie*~
+$p appears in $n's hands.~
+$p appears in your hands.~
+all~
+32 3009 0
+T
+lights!~
+~
+~
+|all*~
+1 0 0
+S
+#30002
+The Disconnection Room~
+This is the room where everyone goes just before they quit.  If you are a 
+mortal you should *NOT* be here, so please get out...NOW.
+~
+0 12 1
+T
+|hell*~
+$n is engulfed in flames and vanishes into the ground!~
+You are engulfed in flames and vanish into the ground!~
+all~
+16384 30000 0
+S
+#30003
+The elevator~
+You are standing inside a small elevator.
+~
+0 12 1
+T
+|three*third*3*~
+~
+~
+all~
+2048 30007 0
+T
+|two*second*2*~
+~
+~
+all~
+2048 30006 0
+T
+|one*first*1*~
+~
+~
+all~
+2048 30005 0
+T
+|ground*bottom*0*~
+~
+~
+all~
+2048 30004 0
+T
+|close*~
+~
+~
+all~
+1024 0 0
+T
+|open*~
+~
+~
+all~
+512 0 0
+S
+#30004
+Ground floor~
+You are standing on the ground floor.
+~
+0 12 1
+T
+|close*~
+~
+~
+all~
+1024 0 0
+T
+|open*~
+~
+~
+all~
+512 0 0
+S
+#30005
+First floor~
+You are standing on the first floor.
+~
+0 12 1
+T
+|close*~
+~
+~
+all~
+1024 0 0
+T
+|open*~
+~
+~
+all~
+512 0 0
+S
+#30006
+Second floor~
+You are standing on the second floor.
+~
+0 12 1
+T
+|close*~
+~
+~
+all~
+1024 0 0
+T
+|open*~
+~
+~
+all~
+512 0 0
+S
+#30007
+Third floor~
+You are standing on the third floor.
+~
+0 12 1
+T
+|close*~
+~
+~
+all~
+1024 0 0
+T
+|open*~
+~
+~
+all~
+512 0 0
+S
+#30008
+The object room~
+~
+0 12 1
+S
+#30050
+Heaven~
+You are standing in heaven.
+~
+0 12 1
+S
+#0
+
+
+
+#SPECIALS
+M 30000 spec_eater Load to: a hell hound
+M 30002 spec_gremlin_born Load to: a nasty little gremlin
+M 30003 spec_gremlin_born Load to: a big ugly gremlin
+M 30004 spec_gremlin_born Load to: a huge vicious gremlin
+M 30005 spec_gremlin_original Load to: a cute little fluffy creature
+M 30011 spec_zombie_lord Load to: the Zombie Lord
+M 30050 spec_eater Load to: a unicorn
+S
+
+
+
+#RESETS
+O 0 30015 0 30003
+O 0 30016 0 30004
+O 0 30017 0 30005
+O 0 30018 0 30006
+O 0 30019 0 30007
+O 0 30040 0 30001
+M 0 30005 1 30001
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

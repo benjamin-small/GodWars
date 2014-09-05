@@ -1,0 +1,315 @@
+#AREA	Rotain  Darklight Area~
+
+#HELPS
+0 $~
+
+#MOBILES
+#6640
+the dark cleric~
+the darklight cleric~
+A DarkLight Cleric is here.
+~
+This cleric is dedicated to the clan.
+~
+2|64 8|128 1000 S
+50 -10 -20 1d1+29999 2d4+30
+0 -99000
+8 8 1
+
+#6641
+the DarkLight executioner~
+the executioner~
+The DarkLight Executioner is here.
+~
+The executioner is dedicated to the clan.
+~
+2|64 8|128 1000 S
+50 -10 -20 1d1+1499 2d4+30
+5000 50000
+8 8 1
+
+#6642
+the DarkLight guardian~
+the DarkLight guardian~
+The DarkLight Guardian is here.
+~
+The guardian is dedicated to the clan.
+~
+2|64 8|128 1000 S
+250 2 2 1d1+1499 2d4+30
+12000 80000
+8 8 1
+#0
+
+#OBJECTS
+#6640
+axe blade~
+an executioner axe~
+An executioner axe is here.~
+~
+5 1024|2048 1|8192
+57030 5 6 1
+30 30000 10000
+A 
+18 6
+A
+19 6
+#0
+
+#ROOMS
+#6640
+The Halls Of Justice~
+You are standing a the hallway of justice.  To the north is where weapons 
+recall to.  To the south is the armor room.  To the west is the magic items 
+room.  To the east you can see a huge portal.
+~
+67 8 1
+D0
+~
+~
+1 -1 6641
+D1
+~
+~
+1 -1 6642
+D2
+~
+~
+1 -1 6643
+D3
+~
+~
+1 -1 6644
+D4
+~
+~
+1 -1 3001
+S
+
+#6641
+The Weapons Room~
+You are standing in the weapons room.  Weapons are mounted on racks on the 
+wall.  There are great axes, longswords and weapons of every description.
+~
+67 8 1
+D2
+~
+~
+1 -1 6640
+S
+
+#6642
+The Portal Of Justice~
+You are standing in the portal of justice.   There is a plaque on the 
+wall, with the true meaning and value of justice.
+~
+67 8 1
+D3
+~
+~
+1 -1 6640
+S
+
+#6643
+The Armour Room~
+You stand before a vast room. It is filled with spare bits of armour and 
+armour type junk.
+~
+67 8 1
+D0
+~
+~
+1 -1 6640
+S
+
+#6644
+The Magic Room~
+You are standing in the magic room.  This room hums and glows with 
+magical energy.
+~
+67 8 1
+D1
+~
+~
+1 -1 6640
+S
+
+#6645
+The Temple Of DarkLight~
+You stand before the mighty gates to the temple of darklight.  This 
+ancient temple is covered with carvings and markings too old to be 
+understood.
+~
+67 8 1
+D0
+~
+~
+1 -1 6646
+D2
+~
+~
+1 -1 6647
+S
+
+#6646
+The Temple Alter~
+You stand before great alter to the god Rotain.  You feel his presence 
+all around you here.
+~
+30 8|1204 0
+D2
+~
+~
+1 -1 6645
+S
+
+#6647
+The Stronghold Entrance~
+Before you stands the stronghold of DarkLight.  From here you can see the 
+clan army marching up and down the clan stronghold.
+~ 
+67 8 1
+D0
+~
+~
+1 -1 6645
+D1
+~
+~
+1 -1 6648
+D3
+~
+~ 
+1 -1 6651
+D4
+~
+~
+1 -1 6652
+S
+
+#6648
+The Clan Portals~
+You stand before the clan portals.  These ancient portals were here 
+before the clan was here.  There are strange markings in an ancient lanuage 
+now forgotten by man. To the north is the midgaard portal. To the south 
+the new thalos portal.
+~ 
+67 8 1 
+D0
+~
+~
+1 -1 3001 
+D1 
+~ 
+~
+1 -1 6649
+D2
+~
+~
+1 -1 5300
+D3
+~ 
+~
+1 -1 6647 
+S
+
+#6649
+The Clan Portals~
+You stand before the clan portals.  To the north is the high tower 
+portal. To the south the galaxy portal.
+~ 
+67 8 1 
+D0
+~
+~
+1 -1 1312 
+D1 
+~ 
+~
+1 -1 6650
+D2
+~
+~
+1 -1 9302
+D3
+~ 
+~
+1 -1 6648 
+S
+
+#6650
+The Clan Portals~
+You stand before the clan portals.  To the north is the draco 
+portal. To the south the mahn-tor portal.
+~ 
+67 8 1 
+D0
+~
+~
+1 -1 9355
+D2
+~
+~
+1 -1 2362
+D3
+~ 
+~
+1 -1 6649 
+S
+
+#6651
+Old broken down portals~
+A large sign hangs here saying ... sorry these portals seemed to have
+developed a malfunction.  We are seeking parts but seem unable to get any
+please be patient ... The management (BR)
+~ 
+67 8 1 
+D1
+~
+~
+1 -1 6647
+S
+
+#6652
+The Clan Halls~
+You stand in the DarkLight clan halls.  To the north is a clan meeting room.
+~ 
+30 4 9 
+D0
+~
+~
+1 -1 6653
+D5
+~
+~
+1 -1 6647
+S
+
+#6653
+The Clan Meeting Room~
+You stand in the DarkLight clan meeting room.  This is the meeting room 
+where all clan policy is made and a few good laughs had.
+~ 
+67 8 1
+D2
+~
+~
+1 -1 6652 
+S
+
+#0
+
+#RESETS
+M 0 6640 1 6646             DarkLight Cleric At temple
+M 0 6642 1 6647             DarkLight Guardian
+M 0 6641 1 6645             DarkLight Executioner
+E 1 6640 100 16             Executioners Axe 
+S
+
+#SPECIALS
+M 6640 spec_cast_adept
+M 6641 spec_rogue
+M 6642 spec_clan_guardian
+S
+
+#$

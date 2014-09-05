@@ -1,0 +1,578 @@
+#AREADATA
+Name        KaVir   Mages Tower~
+Builders    None~
+VNUMs       28000 28038
+Security    1
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#28000
+The entrance to the Great Tower~
+You are standing at the entrance to the Great Tower of Magic.  This is
+where all apprentice mages must come to learn the ways of spellcasting.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28001
+S
+#28001
+The Junction~
+You are standing in a four-way junction.  To your south is the way into
+the tower, and directly north of you lies the Path of Runes.  To your east
+is the Path of Sigils, while to your west is the Path of Glyphs.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28002
+D1
+~
+~
+0 0 28018
+D2
+~
+~
+0 0 28000
+D3
+~
+~
+0 0 28024
+S
+#28002
+The Corridor~
+You are standing in a small corridor.  To your east lies the Trial of
+Water, while to your west is the Trial of Fire.  The corridor continues
+north, while to your south lies the junction.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28005
+D1
+~
+~
+0 0 28004
+D2
+~
+~
+0 0 28001
+D3
+~
+~
+0 0 28003
+S
+#28003
+The Trial of Fire~
+~
+0 24584 0
+D1
+~
+~
+0 0 28002
+S
+#28004
+The Trials of Water~
+~
+0 24584 0
+D3
+~
+~
+0 0 28002
+S
+#28005
+The Corridor~
+You are standing in a small corridor.  To your east lies the Trial of
+Air, while to your west is the Trial of Earth.  The corridor continues from
+south to north.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28008
+D1
+~
+~
+0 0 28007
+D2
+~
+~
+0 0 28002
+D3
+~
+~
+0 0 28006
+S
+#28006
+The Trial of Earth~
+~
+0 24584 0
+D1
+~
+~
+0 0 28005
+S
+#28007
+The Trial of Air~
+~
+0 24584 0
+D3
+~
+~
+0 0 28005
+S
+#28008
+The Corridor~
+You are standing in a small corridor.  To your east lies the Trial of
+Darkness, while to your west is the Trial of Light.  The corridor continues
+from south to north.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28011
+D1
+~
+~
+0 0 28010
+D2
+~
+~
+0 0 28005
+D3
+~
+~
+0 0 28009
+S
+#28009
+The Trial of Light~
+~
+0 24584 0
+D1
+~
+~
+0 0 28008
+S
+#28010
+The Trial of Darkness~
+~
+0 24584 0
+D3
+~
+~
+0 0 28008
+S
+#28011
+The Corridor~
+You are standing in a small corridor.  To your east lies the Trial of
+Death, while to your west is the Trial of Life.  The corridor continues from
+south to north.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28014
+D1
+~
+~
+0 0 28013
+D2
+~
+~
+0 0 28008
+D3
+~
+~
+0 0 28012
+S
+#28012
+The Trial of Life~
+~
+0 24584 0
+D1
+~
+~
+0 0 28011
+S
+#28013
+The Trial of Death~
+~
+0 24584 0
+D3
+~
+~
+0 0 28011
+S
+#28014
+The Corridor~
+You are standing in a small corridor.  To your east lies the Trial of
+Spirit, while to your west is the Trial of Mind.  To your north lies the
+final trial - the Trial of Mastery.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28017
+D1
+~
+~
+0 0 28016
+D2
+~
+~
+0 0 28011
+D3
+~
+~
+0 0 28015
+S
+#28015
+The Trial of Mind~
+~
+0 24584 0
+D1
+~
+~
+0 0 28014
+S
+#28016
+The Trial of Spirit~
+~
+0 24584 0
+D3
+~
+~
+0 0 28014
+S
+#28017
+The Trial of Mastery~
+~
+0 24584 0
+D2
+~
+~
+0 0 28014
+S
+#28018
+The Corridor~
+You are standing in a small corridor.  To your north lies the Trial of
+Self, while to your south is the Trial of Targeting.  The corridor continues
+east.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28019
+D1
+~
+~
+0 0 28021
+D2
+~
+~
+0 0 28020
+D3
+~
+~
+0 0 28001
+S
+#28019
+The Trial of Self~
+~
+0 24584 0
+D2
+~
+~
+0 0 28018
+S
+#28020
+The Trial of Targeting~
+~
+0 24584 0
+D0
+~
+~
+0 0 28018
+S
+#28021
+The Corridor~
+You are standing in a small corridor.  To your north lies the Trial of
+Area, while to your south is the Trial of Object.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28022
+D2
+~
+~
+0 0 28023
+D3
+~
+~
+0 0 28018
+S
+#28022
+The Trial of Area~
+~
+0 24584 0
+D2
+~
+~
+0 0 28021
+S
+#28023
+The Trial of Object~
+~
+0 24584 0
+D0
+~
+~
+0 0 28021
+S
+#28024
+The Corridor~
+You are standing in a small corridor.  To your north lies the Trial of
+Creation, while to your south is the Trial of Destruction.  The corridor
+continues west.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28025
+D1
+~
+~
+0 0 28001
+D2
+~
+~
+0 0 28026
+D3
+~
+~
+0 0 28027
+S
+#28025
+The Trial of Creation~
+~
+0 24584 0
+D2
+~
+~
+0 0 28024
+S
+#28026
+The Trial of Destruction~
+~
+0 24584 0
+D0
+~
+~
+0 0 28024
+S
+#28027
+The Corridor~
+You are standing in a small corridor.  To your north lies the Trial of
+Summoning, while to your south is the Trial of Transformation.  The corridor
+continues west.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28028
+D1
+~
+~
+0 0 28024
+D2
+~
+~
+0 0 28029
+D3
+~
+~
+0 0 28030
+S
+#28028
+The Trial of Summoning~
+~
+0 24584 0
+D2
+~
+~
+0 0 28027
+S
+#28029
+The Trial of Transformation~
+~
+0 24584 0
+D0
+~
+~
+0 0 28027
+S
+#28030
+The Corridor~
+You are standing within a small corridor.  To your north lies the Trial
+of Transportation, while to your south is the Trial of Control.  The
+corridor continues west.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28031
+D1
+~
+~
+0 0 28027
+D2
+~
+~
+0 0 28032
+D3
+~
+~
+0 0 28033
+S
+#28031
+The Trial of Transportation~
+~
+0 24584 0
+D2
+~
+~
+0 0 28030
+S
+#28032
+The Trial of Control~
+~
+0 24584 0
+D0
+~
+~
+0 0 28030
+S
+#28033
+The Corridor~
+You are standing in a small corridor.  To your north lies the Trial of
+Enhancement, while to your south lies the Trial of Reduction.  The corridor
+continues west.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28034
+D1
+~
+~
+0 0 28030
+D2
+~
+~
+0 0 28035
+D3
+~
+~
+0 0 28036
+S
+#28034
+The Trial of Enhancement~
+~
+0 24584 0
+D2
+~
+~
+0 0 28033
+S
+#28035
+The Trial of Reduction~
+~
+0 24584 0
+D0
+~
+~
+0 0 28033
+S
+#28036
+The Corridor~
+You are standing at the end of the corridor.  To your north lies the
+Trial of Protection, while to your south lies the Trial of Information.  
+~
+0 24584 0
+D0
+~
+~
+0 0 28037
+D1
+~
+~
+0 0 28033
+D2
+~
+~
+0 0 28038
+S
+#28037
+The Trial of Protection~
+~
+0 24584 0
+D2
+~
+~
+0 0 28036
+S
+#28038
+The Trial of Information~
+~
+0 24584 0
+D0
+~
+~
+0 0 28036
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

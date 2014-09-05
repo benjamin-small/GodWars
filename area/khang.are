@@ -1,0 +1,165 @@
+#AREA	KaVir   DarkBlade clan HQ~
+
+
+
+#HELPS
+0 $~
+
+
+
+#MOBILES
+#30799
+skeleton warrior~
+a skeleton warrior~
+A skeleton warrior stands here, brandishing a rusty longsword.
+~
+This skeleton looks something more than your average undead...  You
+realise with horror that it is in fact a Death Knight!  
+~
+67 680 -1000 S
+1000 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#30799
+longsword sword~
+a rusty longsword~
+A rusty old longsword lies here.~
+~
+5 512 8193
+0 0 0 3
+5 10 0
+#0
+
+
+
+#ROOMS
+#30799
+The pit~
+You are standing within a deep dark pit of mire.  Skeletal warriors stand
+glaring at you, ready to tear you limb from limb.  
+~
+0 17416 0
+S
+#30700
+The temple altar~
+You are standing by the temple altar.  A great black longsword hangs on
+the far wall, engraved with glowing green runes.  You recognise it as the
+namesake of the DarkBlade clan.  
+~
+0 17416 0
+D2
+~
+~
+0 0 30701
+D4
+~
+~
+0 0 30702
+S
+#30701
+The main chamber~
+You are standing within the main chamber of the headquarters.  To the
+north lies the temple altar, while above you floats a shimmering portal.  
+~
+0 16392 0
+D0
+~
+~
+0 0 30700
+D4
+~
+~
+0 0 3001
+S
+#30702
+The teleportation chamber~
+You are standing within a small glowing chamber.  There is a small grate 
+on the wall with a sign above it.
+~
+0 16392 0
+D5
+~
+~
+0 0 30700
+E
+sign~
+The sign seems to be a list of areas.  The following are listed: 
+Arachnos, Hightower, Draconia, Galaxy, Megacity, Drow, Canyon, Mahntor.
+~
+T
+arachnos~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 6200 0
+T
+hightower~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 1312 0
+T
+draconia~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2201 0
+T
+galaxy~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 9301 0
+T
+megacity~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 8001 0
+T
+drow~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 5100 0
+T
+canyon~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 9201 0
+T
+mahntor~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2362 0
+S
+#0
+
+
+
+#RESETS
+M 0 30799 6 30799
+E 0 30799 0 16
+S
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+M 30799 spec_kavir_guardian
+S
+
+
+
+#$

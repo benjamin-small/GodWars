@@ -1,0 +1,567 @@
+#AREA	Alice   Werewolf area~
+
+
+
+#HELPS
+0 $~
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#29700
+Entrance to the Temple of the Ancients~
+Completely surrounding the temple is a very tall hedge of incredibly long
+thorns which makes it totally impassible, except for a narrow path which
+leads through at this point.  Through the gap to the north you can see the
+ancient stone temple.  Ivy covers the tall stone fluted columns which go
+from the ground to support the massive pointed stone roof.  Six large stone
+steps, worn in the centres with the passing of the ages, lead up to the
+inside of this great temple.  This was once a very heavily used building.  A
+huge pair of stone dragons stand to either side of the doorway, as though
+guarding it from intruders.  
+~
+0 16384 0
+D0
+~
+~
+0 0 29701
+D5
+~
+~
+0 0 29714
+S
+#29701
+Main Temple~
+You stand inside the mighty Temple of the Ancients.  The vaulted wooden
+ceiling high above you reverberates with even the slighest of noises, and
+the dark oak floorboards creak and groan beneath your feet.  On either side
+of you lie rows of the most realistic statues you have ever seen, each one
+resembling a great ruler of the past.  Beneath each statue, inscribed in a
+long-forgotten tongue, are strange words, now so faded with age as to be
+barely visible.  Surely it must have been Fridgeir himself who carved these?
+The statues continue to the north to flank the huge stone altar, while a
+pair of large purple velvet curtains cover the east and west exits.  
+~
+0 16392 0
+D0
+~
+~
+0 0 29702
+D1
+~
+~
+0 0 29708
+D2
+~
+~
+0 0 29700
+D3
+~
+~
+0 0 29705
+S
+#29702
+Altar of the Ancients~
+Flanking the huge stone altar are more of the stone statues.  The passing
+of the ages bears heavily on this place, and a large burner in front of the
+altar gives off the heady scent of myrrh into the warm air.  In stark
+contrast behind the altar is a huge flag of a white wolf's leg on a field of
+dark blue, showing that this place is still used.  Hidden in the west
+corner, behind a screen, you spy a set of simple stone stairs leading
+downwards.  On the eastern wall, a small wooden staircase leads up through a
+small hole in the ceiling.  
+~
+0 17416 0
+D2
+~
+~
+0 0 29701
+D4
+~
+~
+0 0 29704
+D5
+~
+~
+0 0 29703
+S
+#29703
+Crypt~
+This room is lit by thousands upon thousands of candles which burn with
+an eternal flame of pure white light, giving off a slightly cloying odour. 
+Caskets of the dead line the walls on all sides, while a dais in the centre
+of the room supports a coffin made from a transparent material.  Looking
+inside, you behold the perfectly preserved remains of a stunningly beautiful
+woman, looking as if she is only asleep.  Around the outside of the dais
+reads an indecipherable inscription, the words of which have been lost in
+the mists of time.  You feel an overwhelming sense of peace and tranquility.
+~
+0 16392 0
+D4
+~
+~
+0 0 29702
+S
+#29704
+Clan Halls~
+In the centre of this huge room lies a massive oak table which would be
+big enough to sit a hundred men.  The high, vaulted wooden ceiling gives the
+impression of standing within the yawning mouth of a huge cavern rather than
+being within a dining hall, which is what this place really is.  Countless
+weapons and suits of armour line the walls, in every conceivable style
+possible.  At regular intervals along the east wall are windows which look
+out onto the gardans, and your attention is drawn to a very strange tree in
+the exact centre of the gardan; The right hand side of the tree looks like
+any other tree, while the left hand side is wreathed in burning flames.  On
+the far north wall of the hall lies an immence fireplace of such titanic
+proportions that an entire tree could be burned at a time.  
+~
+0 16392 0
+D5
+~
+~
+0 0 29702
+S
+#29705
+Clan Portals~
+Pulling aside the velvet curtain you see a series of strange pictures. 
+In ancient times the civilisation which built this temple constructed
+portals to other parts of their world.  Above each portal is a series of
+runes which are written in the strange symbols which are all over this
+ancient place.  You feel as though you could just step into the pictures and
+be there.  The east portal leads back into the temple, while to the north
+lies a portal to the Temple of Midgaard.  To the west of you lies the great
+Tower of High Sorcery, and to your south you see the tower of Draconia.  A
+set of stair lead downwards to another room similar to this one.  
+~
+0 16392 0
+D1
+~
+~
+0 0 29701
+D5
+~
+~
+0 0 29706
+S
+#29706
+Clan Portals~
+In ancient times the civilisation which built this place contructed
+portals to other parts of their world.  Above each portal is a series of
+runes which are written in the strange symbols which appear all around this
+ancient place.  Looking through the portals, you see clear images of far off
+places; To the east you spy a futuristic city, while to the west lies a huge
+webbed cave entrance.  The northern portal leads to a city populated by
+minotaurs, and looking south you see hundreds of stars in a scene of
+darkness.  The stairway continues further downwards.  
+~
+0 16392 0
+D4
+~
+~
+0 0 29705
+D5
+~
+~
+0 0 29707
+S
+#29707
+Clan Portals~
+You finally reach the bottom of the stairway.  To your north, the portal
+leads into a modern looking city of Thalos, whilst to your south you see the
+city of the gods.  The eastern portal leads to the great city of Ofcol,
+while looking through the western portal you see a city of evil drow.  
+~
+0 16392 0
+D4
+~
+~
+0 0 29706
+S
+#29708
+Corridor~
+Pulling aside the curtain you see a hallway with plain whitewashed walls
+covered with the occasional red tapestry.  The highly polished wooden floor
+gives the impression that this part of the temple was added at a much later
+date.  The scent of beeswax drifts up from the shiny floorboards, while a
+series of magical lights overhead provide a steady light source.  To the
+north a small exit leads out into the garden, while a doorway to the east
+leads into a private room.  
+~
+0 16392 0
+D0
+~
+~
+0 0 29710
+D1
+~
+~
+0 0 29709
+D3
+~
+~
+0 0 29701
+S
+#29709
+Alice's Room~
+You find yourself in Alice's room.  The walls are a simple off-white
+colour with a thin green pattern about a third of the way up.  On the
+polished floor is a large thick rug of rich red material, with the pattern
+of a dragon stitched in the centre.  A large and comfortable-looking bed
+lies against one wall, carefully made to be used at a moments notice.  Next
+to a large open window is a green leather covered desk with an oil lamp and
+thick black leather bound treatise on thaumaturgy.  Out of the window you
+can see a well cared-for peach orchard, and against the west wall stands a
+book case stacked with leather bound books on all areas of magic, weapon
+uses, and various obscure topics.  The final wall has a large wardrobe and a
+large chest containing Alice's clothes, weapons and other personal affects. 
+~
+0 17416 0
+D3
+~
+~
+0 0 29708
+S
+#29710
+Garden~
+Exiting from the main building you enter the gardens of the Temple. 
+These gardens are not so much cared for as simply loved by someone.  The
+perfectly manicured grass leads down to the side of a large lake which is
+surrounded by large lush mature trees of every type; it almost looks as
+though someone has made a collection of trees.  The lake to the north is
+filled with beautiful multi-coloured fish which the birds seem to leave
+unmolested.  Sitting, half in half out of the lake, is a small blue and gold
+painted pagoda.  Through a wrought iron gate in the east wall you see the
+peach orchard whilst to the west the garden continues.  
+~
+0 16384 3
+D0
+~
+~
+0 0 29711
+D1
+~
+~
+0 0 29712
+D2
+~
+~
+0 0 29708
+D3
+~
+~
+0 0 29713
+S
+#29711
+Pagoda~
+A gentle breeze blows through this simple pagoda which has chairs laid
+out for you to rest on and while away the hours.  The warm breeze carries
+the pleasant scent of summer, with lightly perfumed flowers and freshly cut
+grass.  On the table is a set of glasses with a flask of ice cold lemon
+drink to refresh you - strangely, no matter how much you drink from the
+flask, it never seems to run out.  
+~
+0 16384 3
+D2
+~
+~
+0 0 29710
+S
+#29712
+Peach Garden~
+Down both sides of the path are the most perfect peach trees you have
+ever laid eyes upon.  The carefully tended branches hang heavy with the
+large ripe fruit, making your mouth water.  You wonder if there is something
+more than just care required to produce such fine trees, or if some sort of
+enchantment is responsible.  At the far end of the orchard stands a small
+fountain with a mermaid in the centre.  The gardener watches you
+suspiciously as you walk through her cherished garden.  
+~
+0 16384 3
+D3
+~
+~
+0 0 29710
+S
+#29713
+Tree~
+In the centre of this walled garden stands a most remarkable tree.  It is
+split from top to bottom, with the left hand side covered with the most lush
+green leaves imaginable, while the right hand side of the tree is engulfed
+in flames.  You wonder why the flames on the right give out head and yet
+they do not appear to consume the tree or to spread to the left side of the
+tree.  You feel that this must surely be a sign but you feel uneasy about
+what it means...  
+~
+0 16384 3
+D1
+~
+~
+0 0 29710
+S
+#29714
+Pathway~
+The path here is treacherous with loose rocks, cracks and moss littered
+all over and making the going slow.  However, there is evidence that this
+path was once in good condition and that in spite of its current state the
+path is still in use, although infrequently.  Further ahead you see you a
+large hedge of impassable thorns, although you are just about able to make
+out a small winding track which seems to lead through.  Back down the path
+the landscape seems to span the horizon, with a forest to the south and
+beyond that you can make out the great Temple of Midgaard.  Further to the
+north you see snow capped mountains piercing the vaulted skies above.  
+~
+0 16384 3
+D4
+~
+~
+0 0 29700
+D5
+~
+~
+0 0 29715
+S
+#29715
+Pathway~
+A few old trees are scattered around the pathway here, looking as if they
+have been tortured by the passing of the seasons while a few are no more
+than lightning-blasted stumps.  Further up you see an end to the tree line
+while further down leads into the denser vegetation.  The path here is
+treacherous with loose rocks, cracks and moss littered all over.  Above you,
+small birds circle, calling and singing out in the high mountain air.  
+~
+0 16384 3
+D4
+~
+~
+0 0 29714
+D5
+~
+~
+0 0 29716
+S
+#29716
+Junction~
+The trees are much denser at this part of the path, with a large cedar
+marking the centre of the junction.  Next to the tree are a number of large
+boulders which provide a place to rest and a small stream passes nearby. 
+You feel as though you are being watched, although the feeling doesn't seem
+malavent.  The smell of moss is quite powerful and many different types of
+fungi, blackberries and other forest fruit grow in the wake of the cedar.  A
+small path leads sharply upwards while the trees close to the west.  
+~
+0 16384 3
+D3
+~
+~
+0 0 29717
+D4
+~
+~
+0 0 29715
+S
+#29717
+Forest Path~
+The trees continue to close around with the branches interlocking in the
+canopy high above, which shuts out most of the suns rays.  The trees
+encroach so much that you feel inclined to continue with all speed until you
+can be free of the grasping, suffocating forest.  Occasionally you hear the
+rumbles of the forest and the singing of birds, and very occasionally you
+hear the howl of the wolves that are supposed to live in this part of the
+forest.  The lack of light provides a wonderful place for fungi to flourish,
+and small mammals such as squirrels are occasionally visible darting from
+tree to tree.  To the east you can see a junction in the forest whilst to
+the north looms a large rock face.  
+~
+0 16384 3
+D0
+~
+~
+0 0 29718
+D1
+~
+~
+0 0 29716
+S
+#29718
+Rock Face~
+You emerge from the forest and find yourself before a sheer rock face
+which, without some special climbing equipment, would be impossible to
+climb.  The centre of the rock face looks as though a titan has cleaved it
+asunder with a mighty axe.  Next to the entrance is a small forest pool
+where water from a passing stream collects, before it continues its journey
+across the path and tumbles on its way through the forest.  The narrow path
+continues to the north through the crack in the rock, while to your south
+lies the forest.  
+~
+0 16384 3
+D0
+~
+~
+0 0 29719
+D2
+~
+~
+0 0 29717
+S
+#29719
+Cave~
+~
+0 16392 0
+D0
+~
+~
+0 0 29720
+D2
+~
+~
+0 0 29718
+D5
+~
+~
+0 0 29726
+S
+#29720
+Tunnel~
+~
+0 16392 0
+D1
+~
+~
+0 0 29721
+D2
+~
+~
+0 0 29719
+S
+#29721
+Tunnel~
+~
+0 16392 0
+D0
+~
+~
+0 0 29722
+D3
+~
+~
+0 0 29720
+S
+#29722
+Tunnel~
+~
+0 16392 0
+D0
+~
+~
+0 0 29723
+D2
+~
+~
+0 0 29721
+S
+#29723
+Tunnel~
+~
+0 16392 0
+D0
+~
+~
+0 0 29724
+D2
+~
+~
+0 0 29722
+S
+#29724
+Stair Well~
+~
+0 16392 0
+D2
+~
+~
+0 0 29723
+D4
+~
+~
+0 0 29725
+S
+#29725
+Steps~
+~
+0 16392 0
+D5
+~
+~
+0 0 29724
+S
+#29726
+Lake~
+~
+0 16392 0
+D4
+~
+~
+0 0 29719
+S
+#29727
+Temple to Mandorleon the Lord of Despair~
+~
+0 16392 0
+D0
+~
+~
+0 0 29728
+D2
+~
+~
+0 0 29729
+S
+#29728
+Ante-Chamber~
+~
+0 16392 0
+D2
+~
+~
+0 0 29727
+S
+#29729
+Sacrificial Chamber~
+~
+0 16392 0
+D0
+~
+~
+0 0 29727
+S
+#0
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#$

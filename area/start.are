@@ -1,0 +1,1274 @@
+#AREADATA
+Name        KaVir   The learning centre~
+Builders    None~
+VNUMs       25000 25023
+Security    1
+End
+
+
+
+#MOBILES
+#25000
+receptionist~
+the receptionist~
+The receptionist stands here, ready to help.
+~
+It is her job to point the direction for new players to go, and give any
+help they might require.  She will also give out swords, shields, leather
+vests, lanterns, and daggers.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#25002
+helpful member staff~
+the member of staff~
+A helpful member of staff stands here, giving directions.
+~
+This is one of the many members of staff employed to give directions and
+hints to beginning players.
+~
+67 0 0 S
+101 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25003
+clerk~
+the clerk~
+A clerk stands here, ready to help you.
+~
+Maybe you should ask him about mutants?
+~
+67 0 0 S
+101 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25004
+professor~
+the professor~
+A professor stands here, ready to help you.
+~
+Maybe you should ask him about scavengers?
+~
+67 0 0 S
+101 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25006
+helpful member staff~
+the member of staff~
+A helpful member of staff stands here, giving directions.
+~
+This is one of the many members of staff employed to give directions and
+hints to beginning players.
+~
+67 0 0 S
+101 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25007
+master tactics~
+the master of tactics~
+The master of tactics stands here, offering to teach you some tricks.
+~
+He has mastered every known tactic, and is a very dangerous opponent...
+~
+67 0 0 S
+151 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25008
+helpful member staff~
+the member of staff~
+A helpful member of staff stands here, giving directions.
+~
+This is one of the many members of staff employed to give directions and
+hints to beginning players.
+~
+67 0 0 S
+101 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25009
+caine~
+Caine~
+Caine the fallen one stands here, glaring insanely at you.
+~
+He screams, growls, and dribbles at you, his eyes gleaming fanatically.
+It must be right when they say 'absolate power corrupts absolutely'!
+~
+67 0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#25010
+Motley~
+Motley~
+Motley sits here, eating garbage and claiming to be a great player-killer.
+~
+He thinks he's a great player killer, but you feel the most dangerous
+thing about him is his smell.  
+~
+67 0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#25012
+rat~
+a large rat~
+A large rat scampers around looking for food...like you!
+~
+It has dark brown fur and beady red eyes.  It's lips draw back, revealing
+a set of extremely sharp-looking teeth, which it hopes to use to tear the
+flesh from your body.  
+~
+97 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#25015
+gatekeeper keeper~
+the gatekeeper~
+The gatekeeper stands here, guardian the portal.
+~
+He guards the portal from anyone who seeks to return.  You have nothing
+to fear, however, for you wish to leave, not come back.  
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#25000
+dagger~
+a small iron dagger~
+You see a small iron dagger here.~
+~
+5 64 8193
+0 2 3 11
+5 0 0
+A
+19 1
+A
+18 1
+E
+dagger~
+It is fairly crudely made, but still looks sharp enough to serve you well 
+in a fight.
+~
+#25001
+short sword shortsword~
+an iron shortsword~
+You see an iron shortsword here.~
+~
+5 64 8193
+0 2 3 3
+5 0 0
+A
+19 1
+A
+18 1
+E
+short sword shortsword~
+It is fairly crudely made, but still looks sharp enough to serve you well 
+in a fight.
+~
+#25002
+vest~
+a soft leather vest~
+You see a soft leather vest here.~
+~
+9 0 9
+2 0 0 0
+5 0 0
+E
+vest~
+It is crafted of soft leather, and is very comfortable.  It also provides 
+some protection in combat.
+~
+#25003
+shield~
+a small iron shield~
+You see a small iron shield here.~
+~
+9 0 513
+2 0 0 0
+5 0 0
+E
+shield~
+It is crudely crafted of iron, but it looks like it could protect you 
+pretty well from a sword slash.
+~
+#25004
+lantern~
+a lantern~
+A lantern is on the floor here.~
+~
+1 65 1
+0 0 50 0
+1 0 0
+A
+17 -1
+A
+24 -1
+E
+lantern~
+This small lantern is a handy tool for when it is too dark to see.
+~
+#25005
+book~
+a small book entitled 'The history of mankind'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+chapter3~
+The ley lines and the rifts that they opened were not some insidious evil, 
+nor a plot of some malignant intelligence from another world.  It was an 
+aspect of nature that science did not even know, let alone understand.  
+Like a child playing with matches in a pool of gasoline, humankind 
+dropped a match into the pool and was instantly engulfed.  Once the match 
+was lit and dropped, there was nothing that could be done to undo what 
+had been done.  Yet in a strange way, all this death was part of the 
+birth of a new age.  And through it all, humankind would persevere.  Even 
+the cosmic fury of a world gone mad could not completely eradicate all 
+human life.  However, it would take humankind hundreds of years to crawl 
+out of the abyss that swallowed it.  It is at this moment, as humankind 
+finally emerges into the light of a new dawn that our story unfolds.
+~
+E
+chapter2~
+Oceans leapt from their basin and washed over the land.  Hundreds of 
+millions more died, their psychic energy drawn into the ley lines, and 
+the natural energies doubled again.  A chain reaction was unleached that 
+could not be halted.
+
+The continent men called Atlantis leapt from its watery grave and rose to 
+the light of day for the first time in millennia, its rebirth changing 
+the very face of the planet.  In its wake, the eastern coast of the 
+United States was engulfed by the ocean, sending the energy of millions 
+more into the relentless rifts.
+
+From the rifts spewed forth energy that tore through man's citadels of 
+steel and concrete like a tornado through a city built out of match 
+sticks.  For every million lives lost, the ley lines surged and destroyed 
+millions more.
+~
+E
+chapter1~
+Rifts are tears in the very fabric of space and time.  They are found at 
+the nexus points where several "lines" of natural energy (that mankind 
+calls magic) intersect and create a surge in the lines of powers.  The 
+science of geomancy had vanished centuries before.  Only myths and 
+crackpot practitioners of magic had any inkling about ley lines and 
+mystic energy.  Consequently, no one could have anticipated the fate that 
+awaited humankind.
+
+Nuclear holocaust ignited the destruction of the world as we know it, but 
+it was not the primary instrument of destruction.  The sudden destruction 
+of a billion people triggered a surge in the ley lines.  All that psychic 
+energy sent the energy rippling through the mystical crossroads of earth 
+like an earthquake.  Ley lines flowed with energy that had not been felt 
+for a million years.  The energy surged and pulsed and crisscrossed 
+across the planet at the speed of light.  At ley line intersections 
+(known as nexus points), rifts in space and time tore open, releasing 
+even more energy.  The earth shuddered and heaved.  Millions more died, 
+increasing the energy level of the rifts.
+~
+E
+book history index~
+The book containers three chapters.
+Type: "look chapter1", "look chapter2" or "look chapter3".
+~
+#25006
+book~
+a small book entitled 'A study of the mutants'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+book mutants~
+The mutants are those of mankind who were most affected by the magical 
+energies of the rifts; warped and changed by the energy, some are 
+disfigured physically, perhaps having grown wings or extra limbs, while 
+others are changed mentally, gaining magical or psychic powers.
+The mutants fear the technology that the scavengers employ, believing 
+that it is evil - after all, was it not the technology that started all 
+this trouble?  For this reason, they seek to destroy the scavengers, for 
+only then will the world be safe from a reoccurance of the nuclear war 
+that was the original cause of the devastation.  The scavengers must be 
+stopped, for the sake of all remaining life...the war is on.
+~
+#25007
+book~
+a small book entitled 'A study of the scavengers'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+book scavengers~
+The scavengers are those of humankind who were shielded from the majority 
+of the destruction.  As such, they were able to save a certain amount of 
+the technology available at that time, and even to improve it to a 
+degree.  The scavengers wish to restore things to the way they were 
+before, but unfortunately the mutants see things differently.  The 
+scavengers see the destruction as a lesson to be learned from, but 
+the mutants disagree with them, and seem content to let the remains of 
+civilization slip into a state of primitive anarchy.  The scavengers 
+could accept that, as long as it didn't interfer with them, but the 
+mutants fear the power of technology and those who wield it.  They see 
+only one solution...the war is on.
+~
+#25008
+book~
+a small book entitled 'Combat Tactics, Volume I'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+BLIND~
+The blindness spell, and the dirt/gouge fighting skills, are very useful 
+when combined with disarm.  The main problem with disarm is that is your 
+opponent is fast enough they can pick up and rewield their weapons before 
+you can grab it...however if they are blind they get no such chance.  
+Another advantage of blinding someone is that they cannot use most 
+equipment, like potions, and if you are forced to flee they won't be able 
+to re-initiate the fight until they can see again.  Be careful though, 
+because some players will be able to cure themselves midfight...
+~
+E
+BLESS~
+A worthwhile spell to have running at all times, as every bit of hitroll 
+helps.  Not a particularly amazing spell though.
+~
+E
+BACKSTAB~
+Backstab will allow you to inflict a large amount of damage, giving you 
+something of a headstart on your opponent.  One problem with backstab is 
+that your opponent must be at full health for it to work.  This can be got 
+around, however, with careful use of healing spells or items.
+~
+E
+book I tactics index~
+The book contains chapters on the following tactics:
+BACKSTAB, BLESS, BLIND.
+~
+#25009
+book~
+a small book entitled 'Combat Tactics, Volume II'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+DEFENSIVE~
+There are three basic armor class spells; Shield, Armor, and Stone skin.
+Of these, stone skin is the most affective, although it also has the 
+shortest duration.  For players with poor magical ability, armor is 
+probably the best because of its standard duration of 24 hours.  The 
+other spells won't have any sort of decent duration until you become more 
+powerful at spellcasting (at which point their duration can become more 
+than twice that of the armor spell).
+~
+E
+CHARM~
+Charm person has got to be one of the most powerful anti-player spells 
+around.  The first (and most obvious) use is to charm mobs, which can 
+either assist you in combat or give you their equipment.  If cast 
+directly on another player, however, the results are much more 
+entertaining.  A quick way to get rid of a powerful player is to charm 
+them, order them to 'remove all', then order them to attack a powerful 
+nearby mob.  You can then join in if you wish to finish them off, or 
+simply help yourself to their equipment after the mob has finished with 
+them.  Unfortunately it is because of this that most powerful players are 
+immune to being charmed...
+~
+E
+CURSE~
+This spell is good for preventing an opponent from recalling from a 
+fight.  Use in conjunction with the 'stamp' fight style (which stops your 
+opponent from moving) for the best combination; Your opponent will have 
+no choice but to fight it out to the bitter end.
+~
+E
+book II tactics index~
+The book contains chapters on the following tactics:
+CURSE, CHARM, DEFENSIVE.
+~
+#25010
+book~
+a small book entitled 'Combat Tactics, Volume III'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+FLY~
+Fly is useful to leave on at all times for two reasons.  Firstly, it 
+prevents you being tripped in combat, and secondly it allows you to flee 
+into the air/across water if the need arises.
+~
+E
+DISARM~
+Disarm is a very useful skill when used on other players.  If you're 
+quick enough, you should be able to disarm then, then pick up their 
+weapon, thus forcing them to fight unarmed (or with a backup weapon if 
+they are lucky - but then you could always disarm that as well...)
+Some weapons cannot be disarmed, and some players are immune to disarm, 
+so it's best to use this skill only on less powerful players.
+~
+E
+DETECT~
+You should make sure you can detect invis at all times, otherwise 
+invisible players will be able to sneak up on you without you knowing.  
+Detect hidden can also be useful for mobs.  The other detection spells 
+generally have little combat use, although detect evil is useful for 
+seeing if you should cast protection before fighting that person.
+~
+E
+book III tactics index~
+The book contains chapters on the following tactics:
+DETECT, DISARM, FLY.
+~
+#25011
+book~
+a small book entitled 'Combat Tactics, Volume IV'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+INVISIBILITY~
+Invisibility can be very useful if your opponent cannot see invisible 
+people, because it means they cannot initiate the fight - They have to 
+wait for you to start at your own leisure.  Unfortunately most players 
+are able to see invisible creatures for this very reason.
+~
+E
+HURL~
+This skill doesn't in itself cause a lot of damage.  However with careful 
+use you can throw players into traps or into rooms with aggressive mobs.  
+A particularly useful application for people with fast connections is to 
+enter a room which has a group of opponents, hurl all but one out of the 
+room in rapid succession, then backstab the remaining member, loot them, 
+and run off before the others realise what has happened.
+~
+E
+HEAL~
+This spell is useful in a fight for healing damage you receive.  If you 
+inflict more than 100 damage with a spell then you would be better off 
+casting that spell instead, however.
+Another use of this spell is on an opponent who is just below maximum hit 
+points, just prior to a hurl or backstab.
+~
+E
+book IV tactics index~
+The book contains chapters on the following tactics:
+HEAL, HURL, INVISIBILITY.
+~
+#25012
+book~
+a small book entitled 'Combat Tactics, Volume V'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+POISON~
+The poison spell has two main uses.  The first (and most obvious) is to 
+use it on your opponent.  If you have a poisoned weapon, this is much 
+more affective, as the more you poison someone, the weaker they become.  
+Combined with disarm, you can make someone so weak that they cannot pick 
+their weapon back up.
+The second use is to cast it on yourself.  Poison itself doesn't cause a 
+lot of damage, but it will keep you always just below maximum hit points, 
+rendering you immune to being backstabbed (unless someone heals/cures you).
+~
+E
+OFFENSIVE~
+There are many types of offensive spell, and because of spell immunities 
+it is best to have a selection available.  Breath spells are very good 
+for players with lots of hit points, but otherwise it's best to stick to 
+the standard spells.  When you first start your spell casting power will 
+be weak, so it is best to start with simple spells like 'magic missile' 
+or 'burning hands'.  When your skill improves you should try and move on 
+to 'fireball', 'acid blast', 'lightning bolt', and particularly 'energy 
+drain'.  This last one doesn't cause as much damage as the others, but it 
+does give you hit points when you hit, as well as drain your opponents 
+mana and move.  Additionally there is no immunity to it.  When you are 
+fighting against well prepared players with lots of immunities, you 
+should try to use spells like 'harm' and 'gas breath'.
+~
+E
+KICK~
+Kick is a skill best used by players who are better in combat than at 
+magic.  While not as flexable as spells, it is much more reliable, and 
+can cause quite a lot of damage when used by a powerful player.  Be 
+careful, however, for some people may become immune to kicks.
+~
+E
+book V tactics index~
+The book contains chapters on the following tactics:
+KICK, OFFENSIVE, POISON.
+~
+#25013
+book~
+a small book entitled 'Combat Tactics, Volume VI'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+SLEEP~
+This spell is good for pinning down players while you dispose of their 
+friends.  Another thing to remember is that hitting a sleeping person 
+causes double damage, so combined with a backstab you can probably kill 
+most players.
+~
+E
+SKILLS~
+The best combat skills to learn are: Enhanced damage, second attack, 
+third attack, parry, and dodge.  You should make sure you learn all of 
+these to 100% as soon as possible.
+~
+E
+SANCTUARY~
+This spell is vital in any fight.  It basically allows you to withstand 
+twice the amount of damage you could normally.
+~
+E
+PROTECTION~
+This spell is vital when fighting any evil creatures or players.  It will 
+basically allow you to withstand twice the damage you could normally, 
+with a much longer duration and cheaper casting cost than sanctuary.  It 
+is also possible to have this spell AND sanctuary together, which is a 
+very powerful defence.
+~
+E
+book VI tactics index~
+The book contains chapters on the following tactics:
+PROTECTION, SANCTUARY, SKILLS, SLEEP.
+~
+#25014
+book~
+a small book entitled 'Combat Tactics, Volume VII'~
+A small leather-bound book lies here.~
+~
+12 0 1
+0 0 0 0
+1 300 0
+E
+TELEPORT~
+While this spell is not generally a very useful spell, you can sometimes 
+be lucky with where you land.  Ending up within your opponents line of 
+defence allows you to pick off the weaker players quickly, then make your 
+escape before anyone else realises you are there.  This spell can also be 
+useful for an emergency escape if you are being attacked near your recall 
+point (where it wouldn't be safe to recall to).
+~
+E
+SUMMON~
+The summoning spell is very powerful when used against other players.  If 
+you know your way around the areas and can find a room with lockable 
+doors then you have a great tactical advantage.  You should cast passdoor 
+and invisibility, then summon several aggressive mobs that cannot see 
+invisible creatures.  Then you summon your opponent, and as soon as the 
+mobs attack them join in yourself.  Your opponent will be unable to escape 
+because of the doors, but if you get into serious trouble yourself, you 
+will be able to flee because of the passdoor spell.  Summon can also be 
+useful if you are in a group, by summoning your opponents and picking 
+them off one by one.
+It is important to remember that summon only works within the area, 
+although this can be very useful if you sit just outside of an area that 
+has opponents in, because you can summon them whenever you like, but they 
+have to wait for you to reveal yourself.
+~
+E
+SNEAK~
+Sneak will prevent other players from realising that you have entered the 
+room (unless they happen to type look).  It is extremely useful if you 
+are not a very fast typer, because otherwise your opponent might well 
+leave the room or even attack you first as soon as they see you walk into 
+the room.
+~
+E
+book VII tactics index~
+The book contains chapters on the following tactics:
+SNEAK, SUMMON, TELEPORT.
+~
+#0
+
+
+
+#ROOMS
+#25000
+The reception~
+You are standing in a small waiting room.  A young receptionist stands
+behind a small counter on the east wall, checking a small timetable. 
+A small door leads north, down a long corridor.
+~
+0 17416 0
+D0
+~
+door~
+0 0 25001
+T
+|lantern*light*~
+The receptionist says 'Here you go $n, maybe this lantern will help!'.
+The receptionist gives $n $p.~
+The receptionist says 'Here you go $n, maybe this lantern will help!'.
+The receptionist gives you $p.~
+all~
+1048608 25004 25000
+T
+|shield*~
+The receptionist says 'Here you go $n, maybe this shield will help!'.
+The receptionist gives $n $p.~
+The receptionist says 'Here you go $n, maybe this shield will help!'.
+The receptionist gives you $p.~
+all~
+1048608 25003 25000
+T
+|vest*~
+The receptionist says 'Here you go $n, maybe this vest will help!'.
+The receptionist gives $n $p.~
+The receptionist says 'Here you go $n, maybe this vest will help!'.
+The receptionist gives you $p.~
+all~
+1048608 25002 25000
+T
+|sword*~
+The receptionist says 'Here you go $n, maybe this sword will help!'.
+The receptionist gives $n $p.~
+The receptionist says 'Here you go $n, maybe this sword will help!'.
+The receptionist gives you $p.~
+all~
+1048608 25001 25000
+T
+|dagger*~
+The receptionist says 'Here you go $n, maybe this dagger will help!'.
+The receptionist gives $n $p.~
+The receptionist says 'Here you go $n, maybe this dagger will help!'.
+The receptionist gives you $p.~
+all~
+1048608 25000 25000
+T
+&what*do*~
+The receptionist says 'Open the door and go north'.
+The receptionist says 'The members of staff will help you'.~
+copy~
+all~
+1048576 0 25000
+T
+&where*go*~
+The receptionist says 'Open the door and go north'.
+The receptionist says 'The members of staff will help you'.~
+copy~
+all~
+1048576 0 25000
+T
+|help*~
+The receptionist says 'I can supply equipment if you need it...'.
+The receptionist says 'Look at me to see what I have available'.~
+copy~
+all~
+1048576 0 25000
+T
+>ENTER<~
+The receptionist says 'Good day, $n.  If you need any help, just ask'.~
+copy~
+all~
+1048576 0 25000
+S
+#25001
+The corridor~
+You are standing within a narrow white corridor.  Strange sounds of
+combat can be heard further ahead.  
+~
+0 17416 0
+D0
+~
+~
+0 0 25002
+D2
+~
+door~
+0 0 25000
+S
+#25002
+The junction~
+You are standing at a small junction in the corridor.  The corridor leads
+on north, while to your east and west lie a couple of archways leading into
+small rooms.  
+~
+0 17416 0
+D0
+~
+~
+0 0 25005
+D1
+~
+~
+0 0 25004
+D2
+~
+~
+0 0 25001
+D3
+~
+~
+0 0 25003
+T
+>ENTER<~
+The member of staff says 'Welcome, $n!  I am here to help people like you'.
+The member of staff says 'Before you go any further north, go east and west'.~
+copy~
+all~
+1048576 0 25002
+S
+#25003
+The mutant information centre~
+This is a small information centre.  The clerk here has spent many years
+researching into mutants, and knows quite a lot of information about them.  
+He will be more than willing to answer any questions you have about them.
+~
+0 17416 0
+D1
+~
+~
+0 0 25002
+T
+|mutant*~
+The clerk says 'Here you go $n, take a look at this book!'.
+The clerk gives $n $p.~
+The clerk says 'Here you go $n, take a look at this book!'.
+The clerk gives you $p.~
+all~
+1048608 25006 25003
+T
+|history*mankind*~
+The clerk says 'Here you go $n, take a look at this book!'.
+The clerk gives $n $p.~
+The clerk says 'Here you go $n, take a look at this book!'.
+The clerk gives you $p.~
+all~
+1048608 25005 25003
+T
+|help*book*~
+The clerk says 'Would you like a book on mutants, or mankinds history?'.~
+copy~
+all~
+1048576 0 25003
+T
+>ENTER<~
+The clerk says 'Welcome to my study, $n.'.~
+copy~
+all~
+1048576 0 25003
+S
+#25004
+The scavenger information centre~
+You are standing in the scavenger information centre.  A short professor
+sits behind a wooden desk in one corner.  He has spent many years studying
+the history of the scavengers, and will try to give you whatever information
+you require.  
+~
+0 17416 0
+D3
+~
+~
+0 0 25002
+T
+|scavenger*~
+The professor says 'Here you go $n, take a look at this book!'.
+The professor gives $n $p.~
+The professor says 'Here you go $n, take a look at this book!'.
+The professor gives you $p.~
+all~
+1048608 25007 25004
+T
+|history*mankind*~
+The professor says 'Here you go $n, take a look at this book!'.
+The professor gives $n $p.~
+The professor says 'Here you go $n, take a look at this book!'.
+The professor gives you $p.~
+all~
+1048608 25005 25004
+T
+|help*book*~
+The professor says 'Would you like a book on scavengers, or mankinds history?'.~
+copy~
+all~
+1048576 0 25004
+T
+>ENTER<~
+The professor says 'Welcome to my study, $n.'.~
+copy~
+all~
+1048576 0 25004
+S
+#25005
+The corridor~
+You are once again standing in a narrow corridor.  The sounds of combat
+can be heard even closer than before; They seem to be coming from just a
+little way ahead... 
+~
+0 17416 0
+D0
+~
+~
+0 0 25006
+D2
+~
+~
+0 0 25002
+S
+#25006
+The junction~
+You are standing at another junction.  The sounds of combat can be heard
+on all sides, and pools of blood are clearly visible on the floor.  
+~
+0 17416 0
+D0
+~
+~
+0 0 25014
+D1
+~
+~
+0 0 25008
+D2
+~
+~
+0 0 25005
+D3
+~
+~
+0 0 25007
+T
+>ENTER<~
+The member of staff says 'Hello there $n.  This is where you learn to fight'.
+The member of staff says 'First you should go west and consult the master...'. 
+The member of staff says 'Then you should go east and practice for yourself!'.~
+copy~
+all~
+1048576 0 25006
+S
+#25007
+The tactics room~
+You are standing in a fairly large room, filled with books on combat
+tactics, strange weapons, potions, scrolls, and many other devices.  
+~
+0 17416 0
+E
+books~
+There are many books along the shelves, although most are repeated to
+allow young adventurers such as yourself to have a copy.  If you want one
+you should ask the tactics master!  
+~
+D1
+~
+~
+0 0 25006
+T
+|seventh*seven*7*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25014 25007
+T
+|sixth*six*6*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25013 25007
+T
+|fifth*five*5*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25012 25007
+T
+|fourth*four*4*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25011 25007
+T
+|third*three*3*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25010 25007
+T
+|second*two*2*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25009 25007
+T
+|first*one*1*~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives $n $p.~
+The tactics master says 'Here you go $n, take a look at this book!'.
+The tactics master gives you $p.~
+all~
+1048608 25008 25007
+T
+|help*tactics*book*combat*teach*fight*~
+The tactics master says 'I have seven books on tactics available...'.
+The tactics master says 'Which number would you like?'.~
+copy~
+all~
+1048576 0 25007
+T
+>ENTER<~
+The tactics master says 'How can I help you, $n?'.~
+copy~
+all~
+1048576 0 25007
+S
+#25008
+The combat room~
+You are standing within a small room, covered with blood, gore, and
+severed body parts.  The sounds and snarls around you strike fear into your
+heart, but you realise that if you wish to pass the test you'll have to
+fight...  
+~
+0 17416 0
+D0
+~
+~
+0 0 25009
+D1
+~
+~
+0 0 25010
+D2
+~
+~
+0 0 25011
+D3
+~
+~
+0 0 25006
+D4
+~
+~
+0 0 25013
+D5
+~
+~
+0 0 25012
+T
+>ENTER<~
+The member of staff says 'Welcome to the prison cells, $n.'.
+The member of staff says 'Try going all directions and fighting what you find'.~
+copy~
+all~
+1048576 0 25008
+S
+#25009
+The northern prison cell~
+You are standing within a prison cell.  A strangly twisted creature
+screams insanely at you, desperately pulling at his chains in an attempt to
+tear you limb from limb...  Of course he IS chained up, while you are not,
+so surely he can't be THAT hard?  
+~
+0 17416 0
+D2
+~
+~
+0 0 25008
+S
+#25010
+The eastern prison cell~
+As you enter this room, you can't help but wrinkle your nose at the
+smell.  Covering the floor is rotten food, old smelly socks, and all manner
+of garbage.  Suddenly a putrid creature leaps from the pile of litter,
+cackling madly to himself.  
+~
+0 17416 0
+D3
+~
+~
+0 0 25008
+S
+#25011
+The southern prison cell~
+This cell is currently empty.
+~
+0 17416 0
+D0
+~
+~
+0 0 25008
+S
+#25012
+The centre of the torture chamber~
+You are standing within the centre of a large torture chamber.  Many
+rusted implements of pain are hanging from the walls, still stained with
+ancient blood.  Even more worrying are the huge rats that scamper all around
+you.  
+~
+0 17416 0
+D0
+~
+~
+0 0 25016
+D1
+~
+~
+0 0 25018
+D2
+~
+~
+0 0 25020
+D3
+~
+~
+0 0 25022
+D4
+~
+~
+0 0 25008
+S
+#25013
+The upper prison cell~
+This cell is currently empty.
+~
+0 17416 0
+D5
+~
+~
+0 0 25008
+S
+#25014
+The corridor~
+You find yourself once more in the narrow corridor.  A faint humming can
+be heard from up ahead!  You decide to procede with caution...  
+~
+0 17416 0
+D0
+~
+~
+0 0 25015
+D2
+~
+~
+0 0 25006
+S
+#25015
+The gateway~
+You stand at the end of the corridor.  If you feel you are ready for the
+big bad world, then you should tell the gatekeeper which side you wish to
+fight for; The mutants or the scavengers.  If you do not yet feel ready, you
+should go back and look through the other rooms.  
+~
+0 17416 0
+D2
+~
+~
+0 0 25014
+T
+|scavenger*~
+The guardian says 'Ok then $n, just type "enter portal" to become a scavenger.'.
+The guardian makes a few gestures and a shimmering portal appears.~
+copy~
+all~
+1056768 30001 25015
+T
+|mutant*~
+The guardian says 'Ok then $n, just type "enter portal" to become a mutant.'.
+The guardian makes a few gestures and a shimmering portal appears.~
+copy~
+all~
+1056768 30000 25015
+T
+>ENTER<~
+The gatekeeper says 'Do you wish to become a mutant or a scavenger?'.~
+copy~
+all~
+1048576 0 25015
+S
+#25016
+The northern end of the torture chamber~
+~
+0 17416 0
+D1
+~
+~
+0 0 25017
+D2
+~
+~
+0 0 25012
+D3
+~
+~
+0 0 25023
+S
+#25017
+The north-eastern corner of the torture chamber~
+~
+0 17416 0
+D2
+~
+~
+0 0 25018
+D3
+~
+~
+0 0 25016
+S
+#25018
+The eastern end of the torture chamber~
+~
+0 17416 0
+D0
+~
+~
+0 0 25017
+D2
+~
+~
+0 0 25019
+D3
+~
+~
+0 0 25012
+S
+#25019
+The south-eastern corner of the torture chamber~
+~
+0 17416 0
+D0
+~
+~
+0 0 25018
+D3
+~
+~
+0 0 25020
+S
+#25020
+The southern end of the torture chamber~
+~
+0 17416 0
+D0
+~
+~
+0 0 25012
+D1
+~
+~
+0 0 25019
+D3
+~
+~
+0 0 25021
+S
+#25021
+The south-western corner of the torture chamber~
+~
+0 17416 0
+D0
+~
+~
+0 0 25022
+D1
+~
+~
+0 0 25020
+S
+#25022
+The western end of the torture chamber~
+~
+0 17416 0
+D0
+~
+~
+0 0 25023
+D1
+~
+~
+0 0 25012
+D2
+~
+~
+0 0 25021
+S
+#25023
+The north-western corner of the torture chamber~
+~
+0 17416 0
+D1
+~
+~
+0 0 25016
+D2
+~
+~
+0 0 25022
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 25000 1 25000
+M 0 25002 1 25002
+M 0 25003 1 25003
+M 0 25004 1 25004
+M 0 25006 1 25006
+M 0 25007 1 25007
+M 0 25008 1 25008
+M 0 25009 1 25009
+M 0 25010 1 25010
+M 0 25012 4 25012
+M 0 25015 1 25015
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$
