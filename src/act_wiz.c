@@ -3041,8 +3041,8 @@ void do_oset(CHAR_DATA *ch, char *argument) {
         } else if(!str_cmp(arg3, "loyal")) {
             value = ITEM_LOYAL;
         } else {
-            send_to_char("Extra flag can be from the following: Glow, Hum, Thrown, Vanish, Invis,
-                         Magic, Nodrop, Bless, Anti-Good, Anti-Evil, Anti-Neutral, Noremove,
+            send_to_char("Extra flag can be from the following: Glow, Hum, Thrown, Vanish, Invis,\
+                         Magic, Nodrop, Bless, Anti-Good, Anti-Evil, Anti-Neutral, Noremove,\
                          Inventory, Loyal.\n\r", ch);
             return;
         }
@@ -3111,7 +3111,7 @@ void do_oset(CHAR_DATA *ch, char *argument) {
         } else if(!str_cmp(arg3, "face")) {
             value = ITEM_WEAR_FACE;
         } else {
-            send_to_char("Wear location can be from: None, Take, Finger, Neck, Body, Head, Legs,
+            send_to_char("Wear location can be from: None, Take, Finger, Neck, Body, Head, Legs,\
                          Hands, Arms, About, Waist, Hold, Face.\n\r", ch);
             return;
         }
@@ -3249,8 +3249,8 @@ void do_oset(CHAR_DATA *ch, char *argument) {
         } else if(!str_cmp(arg3, "stake")) {
             obj->item_type = 30;
         } else {
-            send_to_char("Type can be one of: Light, Scroll, Wand, Staff, Weapon, Treasure, Armor,
-                         Potion, Furniture, Trash, Container, Drink, Key, Food, Money, Boat, Corpse,
+            send_to_char("Type can be one of: Light, Scroll, Wand, Staff, Weapon, Treasure, Armor,\
+                         Potion, Furniture, Trash, Container, Drink, Key, Food, Money, Boat, Corpse,\
                          Fountain, Pill, Portal, Stake.\n\r", ch);
             return;
         }
