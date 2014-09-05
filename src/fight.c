@@ -2635,23 +2635,23 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
             }
             recover = 0;
             if(IS_IMMUNE(victim, IMM_SLASH) &&
-                    (attack == "slash" || attack == "slice") && dam > 0) {
+                    (strcmp(attack, "slash") == 0 || strcmp(attack, "slice") == 0) && dam > 0) {
                 recover = number_range(1, dam);
             }
             if(IS_IMMUNE(victim, IMM_STAB) &&
-                    (attack == "stab" || attack == "pierce") && dam > 0) {
+                    (strcmp(attack, "stab") == 0 || strcmp(attack, "pierce") == 0) && dam > 0) {
                 recover = number_range(1, dam);
             }
             if(IS_IMMUNE(victim, IMM_SMASH) &&
-                    (attack == "blast" || attack == "pound" || attack == "crush") && dam > 0) {
+                    (strcmp(attack, "blast") == 0 || strcmp(attack, "pound") == 0 || strcmp(attack, "crush") == 0) && dam > 0) {
                 recover = number_range(1, dam);
             }
             if(IS_IMMUNE(victim, IMM_ANIMAL) &&
-                    (attack == "bite" || attack == "claw") && dam > 0) {
+                    (strcmp(attack, "bite") == 0 || strcmp(attack, "claw") == 0) && dam > 0) {
                 recover = number_range(1, dam);
             }
             if(IS_IMMUNE(victim, IMM_MISC) &&
-                    (attack == "grep" || attack == "suck" || attack == "whip") && dam > 0) {
+                    (strcmp(attack, "grep") == 0 || strcmp(attack, "suck") == 0 || strcmp(attack, "whip") == 0) && dam > 0) {
                 recover = number_range(1, dam);
             }
             if(!IS_NPC(victim) && get_disc(victim, DISC_FORTITUDE) > 0 &&
@@ -2755,7 +2755,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
         dt  = TYPE_HIT;
         attack  = attack_table[0];
     }
-    if(attack == "slash" || attack == "slice") {
+    if(strcmp(attack, "slash") == 0 || strcmp(attack, "slice") == 0) {
         damp = number_range(1, 8);
         if(damp == 1) {
             act("You swing your blade in a low arc, rupturing $N's abdominal cavity.\n\r$S entrails spray out over a wide area.", ch, NULL, victim, TO_CHAR);
@@ -2896,7 +2896,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
                 }
             }
         }
-    } else if(attack == "stab" || attack == "pierce") {
+    } else if(strcmp(attack, "stab") == 0 || strcmp(attack, "pierce") == 0) {
         damp = number_range(1, 5);
         if(damp == 1) {
             act("You defty invert your weapon and plunge it point first into $N's chest.\n\rA shower of blood sprays from the wound, showering the area.", ch, NULL, victim, TO_CHAR);
@@ -2944,7 +2944,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
                 SET_BIT(victim->loc_hp[0], LOST_EYE_L);
             }
         }
-    } else if(attack == "blast" || attack == "pound" || attack == "crush") {
+    } else if(strcmp(attack, "blast") == 0 || strcmp(attack, "pound") == 0 || strcmp(attack, "crush") == 0) {
         damp = number_range(1, 3);
         bodyloc = 0;
         if(damp == 1) {
@@ -3019,7 +3019,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
                 victim->form = 37;
             }
         }
-    } else if(attack == "bite" || IS_VAMPAFF(ch, VAM_FANGS)) {
+    } else if(strcmp(attack, "bite") == 0 || IS_VAMPAFF(ch, VAM_FANGS)) {
         act("You sink your teeth into $N's throat and tear out $S jugular vein.\n\rYou wipe the blood from your chin with one hand.", ch, NULL, victim, TO_CHAR);
         act("$n sink $s teeth into $N's throat and tears out $S jugular vein.\n\r$n wipes the blood from $s chin with one hand.", ch, NULL, victim, TO_NOTVICT);
         act("$n sink $s teeth into your throat and tears out your jugular vein.\n\r$n wipes the blood from $s chin with one hand.", ch, NULL, victim, TO_VICT);
@@ -3031,7 +3031,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
         if(!IS_BLEEDING(victim, BLEEDING_THROAT)) {
             SET_BIT(victim->loc_hp[6], BLEEDING_THROAT);
         }
-    } else if(attack == "claw" || IS_VAMPAFF(ch, VAM_CLAWS)) {
+    } else if(strcmp(attack, "claw") == 0 || IS_VAMPAFF(ch, VAM_CLAWS)) {
         damp = number_range(1, 2);
         if(damp == 1) {
             act("You tear out $N's throat, showering the area with blood.", ch, NULL, victim, TO_CHAR);
@@ -3081,7 +3081,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
                 }
             }
         }
-    } else if(attack == "whip") {
+    } else if(strcmp(attack, "whip") == 0) {
         act("You entangle $N around the neck, and squeeze the life out of $S.", ch, NULL, victim, TO_CHAR);
         act("$n entangle $N around the neck, and squeezes the life out of $S.", ch, NULL, victim, TO_NOTVICT);
         act("$n entangles you around the neck, and squeezes the life out of you.", ch, NULL, victim, TO_VICT);
@@ -3089,7 +3089,7 @@ void dam_message(CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt) {
         if(!IS_BODY(victim, BROKEN_NECK)) {
             SET_BIT(victim->loc_hp[1], BROKEN_NECK);
         }
-    } else if(attack == "suck" || attack == "grep") {
+    } else if(strcmp(attack, "suck") == 0 || strcmp(attack, "grep") == 0) {
         act("You place your weapon on $N's head and suck out $S brains.", ch, NULL, victim, TO_CHAR);
         act("$n places $s weapon on $N's head and suck out $S brains.", ch, NULL, victim, TO_NOTVICT);
         act("$n places $s weapon on your head and suck out your brains.", ch, NULL, victim, TO_VICT);
