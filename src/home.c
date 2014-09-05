@@ -33,59 +33,56 @@
 #include <time.h>
 #include "merc.h"
 
-void home_write()
-{
+void home_write() {
     FILE *fp;
-
-    fflush( fpReserve );
-    fclose( fpReserve );
-    if ( ( fp = fopen(HOME_AREA, "w") ) == NULL) 
-	bug("Cannot Open HOME.ARE file.", 0);
-    else
-    {  
-	fprintf( fp, "#AREA	KaVir   Various Players homes.~\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#HELPS\n");
-	fprintf( fp, "0 $~\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#MOBILES\n");
-	fprintf( fp, "#0\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#OBJECTS\n");
-	fprintf( fp, "#0\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#ROOMS\n");
-	fprintf( fp, "#0\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#RESETS\n");
-	fprintf( fp, "S\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#SHOPS\n");
-	fprintf( fp, "0\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#SPECIALS\n");
-	fprintf( fp, "S\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "\n");
-	fprintf( fp, "#$\n");
+    fflush(fpReserve);
+    fclose(fpReserve);
+    if((fp = fopen(HOME_AREA, "w")) == NULL) {
+        bug("Cannot Open HOME.ARE file.", 0);
+    } else {
+        fprintf(fp, "#AREA	KaVir   Various Players homes.~\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#HELPS\n");
+        fprintf(fp, "0 $~\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#MOBILES\n");
+        fprintf(fp, "#0\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#OBJECTS\n");
+        fprintf(fp, "#0\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#ROOMS\n");
+        fprintf(fp, "#0\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#RESETS\n");
+        fprintf(fp, "S\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#SHOPS\n");
+        fprintf(fp, "0\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#SPECIALS\n");
+        fprintf(fp, "S\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "\n");
+        fprintf(fp, "#$\n");
     }
-    fflush( fp );
-    fclose( fp );
-    fpReserve = fopen( NULL_FILE, "r" );
+    fflush(fp);
+    fclose(fp);
+    fpReserve = fopen(NULL_FILE, "r");
     return;
 }
