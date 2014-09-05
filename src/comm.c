@@ -124,8 +124,8 @@ const	char 	go_ahead_str	[] = { IAC, GA, '\0' };
 int	accept		args((int s, struct sockaddr *addr, int *addrlen));
 int	bind		args((int s, struct sockaddr *name, int namelen));
 void	bzero		args((char *b, int length));
-int	getpeername	args((int s, struct sockaddr *name, int *namelen));
-int	getsockname	args((int s, struct sockaddr *name, int *namelen));
+//int	getpeername	args((int s, struct sockaddr *name, int *namelen));
+//int	getsockname	args((int s, struct sockaddr *name, int *namelen));
 int	gettimeofday	args((struct timeval *tp, struct timezone *tzp));
 int	listen		args((int s, int backlog));
 int	setsockopt	args((int s, int level, int optname, void *optval,
@@ -142,8 +142,8 @@ void	bzero		args((char *b, int length));
 int	accept		args((int s, void *addr, int *addrlen));
 int	bind		args((int s, const void *addr, int addrlen));
 void	bzero		args((char *b, int length));
-int	getpeername	args((int s, void *addr, int *addrlen));
-int	getsockname	args((int s, void *name, int *addrlen));
+//int	getpeername	args((int s, void *addr, int *addrlen));
+//int	getsockname	args((int s, void *name, int *addrlen));
 int	gettimeofday	args((struct timeval *tp, struct timezone *tzp));
 int	listen		args((int s, int backlog));
 int	setsockopt	args((int s, int level, int optname,
@@ -162,8 +162,8 @@ int	accept		args((int s, struct sockaddr *addr, int *addrlen));
 int	bind		args((int s, struct sockaddr *name, int namelen));
 #endif
 int	close		args((int fd));
-int	getpeername	args((int s, struct sockaddr *name, int *namelen));
-int	getsockname	args((int s, struct sockaddr *name, int *namelen));
+//int	getpeername	args((int s, struct sockaddr *name, int *namelen));
+//int	getsockname	args((int s, struct sockaddr *name, int *namelen));
 int	gettimeofday	args((struct timeval *tp, struct timezone *tzp));
 int	listen		args((int s, int backlog));
 /* kavirpoint: put this in for nin site.
@@ -222,8 +222,8 @@ int	accept		args((int s, struct sockaddr *addr, int *addrlen));
 int	bind		args((int s, struct sockaddr *name, int namelen));
 int	close		args((int fd));
 int	fcntl		args((int fd, int cmd, int arg));
-int	getpeername	args((int s, struct sockaddr *name, int *namelen));
-int	getsockname	args((int s, struct sockaddr *name, int *namelen));
+//int	getpeername	args((int s, struct sockaddr *name, int *namelen));
+//int	getsockname	args((int s, struct sockaddr *name, int *namelen));
 int	gettimeofday	args((struct timeval *tp, struct timezone *tzp));
 #if	!defined(htons)
 u_short	htons		args((u_short hostshort));
@@ -249,8 +249,8 @@ int	accept		args((int s, struct sockaddr *addr, int *addrlen));
 int	bind		args((int s, struct sockaddr *name, int namelen));
 void	bzero		args((char *b, int length));
 int	close		args((int fd));
-int	getpeername	args((int s, struct sockaddr *name, int *namelen));
-int	getsockname	args((int s, struct sockaddr *name, int *namelen));
+//int	getpeername	args((int s, struct sockaddr *name, int *namelen));
+//int	getsockname	args((int s, struct sockaddr *name, int *namelen));
 int	gettimeofday	args((struct timeval *tp, struct timezone *tzp));
 int	listen		args((int s, int backlog));
 int	read		args((int fd, char *buf, int nbyte));
@@ -272,8 +272,8 @@ int	accept		args((int s, struct sockaddr *addr, int *addrlen));
 int	bind		args((int s, struct sockaddr *name, int namelen));
 void	bzero		args((char *b, int length));
 int	close		args((int fd));
-int	getpeername	args((int s, struct sockaddr *name, int *namelen));
-int	getsockname	args((int s, struct sockaddr *name, int *namelen));
+//int	getpeername	args((int s, struct sockaddr *name, int *namelen));
+//int	getsockname	args((int s, struct sockaddr *name, int *namelen));
 int	gettimeofday	args((struct timeval *tp, struct timezone *tzp));
 int	listen		args((int s, int backlog));
 int	read		args((int fd, char *buf, int nbyte));
@@ -883,7 +883,7 @@ void new_descriptor(int control) {
     struct sockaddr_in sock;
     struct hostent *from;
     int desc;
-    int size;
+    unsigned int size;
     size = sizeof(sock);
     getsockname(control, (struct sockaddr *) &sock, &size);
     if((desc = accept(control, (struct sockaddr *) &sock, &size)) < 0) {
