@@ -968,7 +968,7 @@ void do_quest(CHAR_DATA *ch, char *argument) {
         } else if(!str_cmp(arg3, "face")) {
             value = ITEM_WEAR_FACE;
         } else {
-            send_to_char("Wear location can be from: Finger, Neck, Body, Head, Legs, Hands, Arms,
+            send_to_char("Wear location can be from: Finger, Neck, Body, Head, Legs, Hands, Arms, \
                          About, Waist, Wrist, Hold, Face.\n\r", ch);
             return;
         }
