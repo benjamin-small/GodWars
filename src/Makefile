@@ -2,7 +2,7 @@ CC      = gcc
 PROF    =
 NOCRYPT =
 #C_FLAGS = -O -Wall $(PROF) $(NOCRYPT)
-C_FLAGS = -Wall $(PROF) $(NOCRYPT) -DMERC
+C_FLAGS = -Wall -Wno-unused $(PROF) $(NOCRYPT) -DMERC
 L_FLAGS = -O $(PROF)
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o \
@@ -19,3 +19,6 @@ merc: $(O_FILES)
 
 .c.o: merc.h
 	$(CC) -c $(C_FLAGS) $<
+
+clean:
+	rm -f *.o merc
