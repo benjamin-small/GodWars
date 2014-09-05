@@ -2498,7 +2498,7 @@ void do_train(CHAR_DATA *ch, char *argument) {
         } else if(cost < 1) {
             cost = 1;
         }
-        (int *) pAbility = &ch->max_hit;
+        //(int *) pAbility = &ch->max_hit;
         pOutput          = "hp";
         if(cost > ch->exp || ch->exp < 1) {
             if(last) {
@@ -2522,7 +2522,7 @@ void do_train(CHAR_DATA *ch, char *argument) {
         } else if(cost < 1) {
             cost = 1;
         }
-        (int *) pAbility = &ch->max_mana;
+        //(int *) pAbility = &ch->max_mana;
         pOutput          = "mana";
         if(cost > ch->exp || ch->exp < 1) {
             if(last) {
@@ -2546,7 +2546,7 @@ void do_train(CHAR_DATA *ch, char *argument) {
         } else if(cost < 1) {
             cost = 1;
         }
-        (int *) pAbility = &ch->max_move;
+        //(int *) pAbility = &ch->max_move;
         pOutput          = "move";
         if(cost > ch->exp || ch->exp < 1) {
             if(last) {
