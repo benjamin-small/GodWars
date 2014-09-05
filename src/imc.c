@@ -36,6 +36,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <sys/file.h>
+#include <time.h>
 
 #include "imc.h"
 
