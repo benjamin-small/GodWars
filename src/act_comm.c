@@ -797,11 +797,11 @@ void do_say(CHAR_DATA *ch, char *argument) {
             continue;
         }
         if(IS_NPC(ch)) {
-            sprintf(name, ch->short_descr);
+            strncpy(name, ch->short_descr, 80);
         } else if(!IS_NPC(ch) && IS_AFFECTED(ch, AFF_POLYMORPH)) {
-            sprintf(name, ch->morph);
+            strncpy(name, ch->morph, 80);
         } else {
-            sprintf(name, ch->name);
+            strncpy(name, ch->name, 80);
         }
         name[0] = UPPER(name[0]);
         sprintf(poly, "%s %s '%s'.\n\r", name, speaks, argument);
