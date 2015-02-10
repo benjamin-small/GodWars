@@ -3591,11 +3591,11 @@ void do_tribe(CHAR_DATA *ch, char *argument) {
             continue;
         }
         if(gch->clan != NULL && strlen(gch->clan) > 1) {
-            sprintf(clan, gch->clan);
+        	strcpy(clan, gch->clan);
         } else if(gch->vampgen == 1) {
-            sprintf(clan, "All");
+            strcpy(clan, "All");
         } else {
-            sprintf(clan, "None");
+            strcpy(clan, "None");
         }
         {
             if(ch->vampgen <= 2) {
