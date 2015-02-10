@@ -1009,7 +1009,6 @@ void do_fetishdoll(CHAR_DATA *ch, char *argument) {
     char       buf [MAX_INPUT_LENGTH];
     char       arg [MAX_INPUT_LENGTH];
     char     part1 [MAX_INPUT_LENGTH];
-    char     part2 [MAX_INPUT_LENGTH];
     int       worn;
     one_argument(argument, arg);
     if(IS_NPC(ch)) {
@@ -1094,8 +1093,7 @@ void do_fetishdoll(CHAR_DATA *ch, char *argument) {
         send_to_char(buf, ch);
         return;
     }
-    sprintf(part2, obj->name);
-    if(str_cmp(part1, part2)) {
+    if(str_cmp(part1, obj->name)) {
         sprintf(buf, "But you are holding %s, not %s!\n\r", obj->short_descr, victim->name);
         send_to_char(buf, ch);
         return;
