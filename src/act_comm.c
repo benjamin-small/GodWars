@@ -1189,7 +1189,7 @@ void room_text(CHAR_DATA *ch, char *argument) {
                 hop = TRUE;
                 break;
             case RT_ACTION:
-                sprintf(arg, argument);
+                strncpy(arg, argument, MAX_INPUT_LENGTH);
                 argument = one_argument(arg, arg1);
                 argument = one_argument(arg, arg2);
                 if((mob = get_char_room(ch, arg2)) == NULL) {
@@ -1510,11 +1510,11 @@ void do_emote(CHAR_DATA *ch, char *argument) {
             continue;
         }
         if(IS_NPC(ch)) {
-            sprintf(name, ch->short_descr);
+            strncpy(name, ch->short_descr, 80);
         } else if(!IS_NPC(ch) && IS_AFFECTED(ch, AFF_POLYMORPH)) {
-            sprintf(name, ch->morph);
+            strncpy(name, ch->morph, 80);
         } else {
-            sprintf(name, ch->name);
+            strncpy(name, ch->name, 80);
         }
         name[0] = UPPER(name[0]);
         sprintf(poly, "%s %s\n\r", name, buf);
@@ -1658,11 +1658,11 @@ void do_xemote(CHAR_DATA *ch, char *argument) {
             continue;
         }
         if(IS_NPC(ch)) {
-            sprintf(name, ch->short_descr);
+            strncpy(name, ch->short_descr, 80);
         } else if(!IS_NPC(ch) && IS_AFFECTED(ch, AFF_POLYMORPH)) {
-            sprintf(name, ch->morph);
+            strncpy(name, ch->morph, 80);
         } else {
-            sprintf(name, ch->name);
+            strncpy(name, ch->name, 80);
         }
         name[0] = UPPER(name[0]);
         sprintf(poly, "%s %s\n\r", name, buf);
