@@ -371,7 +371,7 @@ void do_skill(CHAR_DATA *ch, char *argument) {
         return;
     }
     if(arg[0] == '\0') {
-        sprintf(arg, ch->name);
+        strncpy(arg, ch->name, MAX_INPUT_LENGTH);
     }
     if((victim = get_char_room(ch, arg)) == NULL) {
         send_to_char("They aren't here.\n\r", ch);

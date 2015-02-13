@@ -4615,7 +4615,7 @@ void crack_head(CHAR_DATA *ch, OBJ_DATA *obj, char *argument) {
             return;
         }
         victim = create_mobile(pMobIndex);
-        sprintf(buf, capitalize(arg2));
+        strncpy(buf, capitalize(arg2), MAX_INPUT_LENGTH);
         free_string(victim->short_descr);
         victim->short_descr = str_dup(buf);
         char_to_room(victim, ch->in_room);
@@ -4655,7 +4655,7 @@ void do_voodoo(CHAR_DATA *ch, char *argument) {
         send_to_char("Not on NPC's.\n\r", ch);
         return;
     }
-    sprintf(part2, obj->name);
+    strncpy(part2, obj->name, MAX_INPUT_LENGTH);
     sprintf(part1, "%s voodoo doll", victim->name);
     if(str_cmp(part1, part2)) {
         sprintf(buf, "But you are holding %s, not %s!\n\r", obj->short_descr, victim->name);

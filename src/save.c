@@ -141,7 +141,7 @@ void save_char_obj_backup(CHAR_DATA *ch) {
                 fwrite_obj(ch, ch->carrying, fp, 0);
             }
         }
-        fprintf(fp, "#END\n");
+        fprintf(fp, "%s", "#END\n");
         if(ch->level >= 11) {
             sprintf(chlevel, "<Implementor>");
         } else if(ch->level == 10) {
@@ -168,7 +168,7 @@ void save_char_obj_backup(CHAR_DATA *ch) {
         } else {
             sprintf(buf, "%s New player logged in on %s.\n\r", chlevel, ch->createtime);
         }
-        fprintf(fp, buf);
+        fprintf(fp, "%s", buf);
     }
     fflush(fp);
     fclose(fp);

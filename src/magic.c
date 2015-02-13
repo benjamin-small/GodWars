@@ -3236,7 +3236,7 @@ void spell_voodoo(int sn, int level, CHAR_DATA *ch, void *vo) {
         send_to_char(buf, ch);
         return;
     }
-    sprintf(part2, obj->name);
+    strncpy(part2, obj->name, MAX_INPUT_LENGTH);
     if(str_cmp(part1, part2)) {
         sprintf(buf, "But you are holding %s, not %s!\n\r", obj->short_descr, victim->name);
         send_to_char(buf, ch);
