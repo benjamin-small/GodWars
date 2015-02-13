@@ -877,14 +877,14 @@ void do_ostat(CHAR_DATA *ch, char *argument) {
         return;
     }
     if(obj->questmaker != NULL && strlen(obj->questmaker) > 1) {
-        sprintf(nm1, obj->questmaker);
+        strncpy(nm1, obj->questmaker, 40);
     } else {
-        sprintf(nm1, "None");
+        strncpy(nm1, "None", 40);
     }
     if(obj->questowner != NULL && strlen(obj->questowner) > 1) {
-        sprintf(nm2, obj->questowner);
+        strncpy(nm2, obj->questowner, 40);
     } else {
-        sprintf(nm2, "None");
+        strncpy(nm2, "None", 40);
     }
     sprintf(buf, "Name: %s.\n\r",
             obj->name);
@@ -1604,7 +1604,7 @@ void do_preturn(CHAR_DATA *ch, char *argument) {
         send_to_char("Huh?\n\r", ch);
         return;
     }
-    sprintf(arg, ch->pload);
+    strncpy(arg, ch->pload, MAX_INPUT_LENGTH);
     if(strlen(arg) < 3 || strlen(arg) > 8) {
         send_to_char("Huh?\n\r", ch);
         return;
