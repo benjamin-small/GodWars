@@ -58,6 +58,7 @@
 #define const
 #endif
 typedef int				sh_int;
+typedef unsigned short    int			ush_int;
 typedef int				bool;
 #define unix
 #else
