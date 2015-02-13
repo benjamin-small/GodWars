@@ -62,6 +62,7 @@ typedef int				bool;
 #define unix
 #else
 typedef short    int			sh_int;
+typedef unsigned short    int			ush_int;
 typedef unsigned char			bool;
 #endif
 
@@ -2410,7 +2411,7 @@ struct	obj_data
     char *		questmaker;
     char *		questowner;
     sh_int		item_type;
-    sh_int		extra_flags;
+    ush_int		extra_flags;
     sh_int		wear_flags;
     sh_int		wear_loc;
     sh_int		weight;
