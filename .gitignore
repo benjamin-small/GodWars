@@ -1,0 +1,7 @@
+# Local secrets, editor files, and generated output
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
